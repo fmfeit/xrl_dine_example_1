@@ -1,0 +1,3456 @@
+[
+    {
+        "timestep": 23388,
+        "current_state": {
+            "basic_response_time": 9.639838647893942,
+            "opt_response_time": 11.38591471493655,
+            "basic_throughput": 14.583333333333334,
+            "opt_throughput": 318.05,
+            "avg_response_time": 11.309363128672281,
+            "utilization": 5.0,
+            "current_dimmer": 0.9,
+            "active_servers": 5.0,
+            "max_servers": 20.0,
+            "is_booting": 0.0,
+            "boot_remaining": 0.0,
+            "request_arrival_mean": 0.0030290791599353797,
+            "request_arrival_moving_mean": 0.004370426949717617,
+            "request_arrival_variance": 9.175320557154825e-06,
+            "request_arrival_moving_variance": 1.9341948976420567e-05,
+            "low_fidelity_service_time": 0.0,
+            "low_fidelity_service_time_variance": 0.0,
+            "service_time": 0.0,
+            "service_time_variance": 0.0,
+            "server_threads": 100.0
+        },
+        "current_normalized_state": {
+            "basic_response_time": 2.6228821969149267,
+            "opt_response_time": 2.1388387038148466,
+            "basic_throughput": -1.5769469534349585,
+            "opt_throughput": 2.0490179922751506,
+            "avg_response_time": 2.2003599459048417,
+            "utilization": 1.2949044455100773,
+            "current_dimmer": 2.0053787439282855,
+            "active_servers": -1.2390270670474137,
+            "max_servers": 0.0,
+            "is_booting": -0.5783356143659629,
+            "boot_remaining": -0.5398100475076667,
+            "request_arrival_mean": -0.30556581530872584,
+            "request_arrival_moving_mean": -0.06539537687877932,
+            "request_arrival_variance": -0.0939393290843934,
+            "request_arrival_moving_variance": -0.09828330759917328,
+            "low_fidelity_service_time": 0.0,
+            "low_fidelity_service_time_variance": 0.0,
+            "service_time": 0.0,
+            "service_time_variance": 0.0,
+            "server_threads": 0.0
+        },
+        "last_rewards": {
+            "Running Costs": -0.35,
+            "User Satisfaction": -4.329565765339607,
+            "Revenue": 3.122
+        },
+        "current_selected_action": "Decrease Dimmer",
+        "is_greedy_action": true,
+        "absolute_reward_channel_dominance": {
+            "No Operation": {
+                "Running Costs": -9.92645263671875,
+                "User Satisfaction": -57.97801971435547,
+                "Revenue": 49.19963836669922
+            },
+            "Increase Dimmer": {
+                "Running Costs": -10.065560340881348,
+                "User Satisfaction": -64.16555786132812,
+                "Revenue": 53.84466552734375
+            },
+            "Decrease Dimmer": {
+                "Running Costs": -9.65457820892334,
+                "User Satisfaction": -49.852989196777344,
+                "Revenue": 47.00782012939453
+            },
+            "Add Server": {
+                "Running Costs": -10.9584379196167,
+                "User Satisfaction": -44.56051254272461,
+                "Revenue": 35.438724517822266
+            },
+            "Remove Server": {
+                "Running Costs": -7.306702613830566,
+                "User Satisfaction": -75.60891723632812,
+                "Revenue": 57.943077087402344
+            }
+        },
+        "relative_reward_channel_dominance": {
+            "No Operation": {
+                "Running Costs": 1.0319852828979492,
+                "User Satisfaction": 17.630897521972656,
+                "Revenue": 13.760913848876953
+            },
+            "Increase Dimmer": {
+                "Running Costs": 0.8928775787353516,
+                "User Satisfaction": 11.443359375,
+                "Revenue": 18.405941009521484
+            },
+            "Decrease Dimmer": {
+                "Running Costs": 1.3038597106933594,
+                "User Satisfaction": 25.75592803955078,
+                "Revenue": 11.569095611572266
+            },
+            "Add Server": {
+                "Running Costs": 0.0,
+                "User Satisfaction": 31.048404693603516,
+                "Revenue": 0.0
+            },
+            "Remove Server": {
+                "Running Costs": 3.651735305786133,
+                "User Satisfaction": 0.0,
+                "Revenue": 22.504352569580078
+            }
+        },
+        "current_state_value": {
+            "Running Costs": -7.306702613830566,
+            "User Satisfaction": -44.56051254272461,
+            "Revenue": 57.943077087402344
+        },
+        "min_next_state_value": {
+            "Running Costs": -8.293118476867676,
+            "User Satisfaction": -70.1732406616211,
+            "Revenue": 50.43562316894531
+        },
+        "max_next_state_value": {
+            "Running Costs": -6.705584526062012,
+            "User Satisfaction": -44.16440963745117,
+            "Revenue": 64.68820190429688
+        },
+        "contrastive_important_actions_explanations": [
+            [
+                "Running Costs",
+                "Remove Server",
+                "To achieve the goal <b><u>Running Costs</u></b>, it would currently be most important to choose <b><u>Remove Server</u></b>. However, taking into account all the contrastive target dimensions, I have chosen the action <b><u>Decrease Dimmer</u></b>.\n\nMore specifically, compared to the action <b><u>Remove Server</u></b>, the action <b><u>Decrease Dimmer</u></b> has a higher positive impact on the goal <b><u>User Satisfaction</u></b>."
+            ]
+        ]
+    },
+    {
+        "timestep": 23389,
+        "current_state": {
+            "basic_response_time": 9.627964905937212,
+            "opt_response_time": 11.362958819824739,
+            "basic_throughput": 22.9,
+            "opt_throughput": 322.2,
+            "avg_response_time": 11.247828826698038,
+            "utilization": 5.0,
+            "current_dimmer": 0.85,
+            "active_servers": 5.0,
+            "max_servers": 20.0,
+            "is_booting": 0.0,
+            "boot_remaining": 0.0,
+            "request_arrival_mean": 0.002838489923360772,
+            "request_arrival_moving_mean": 0.004265823382774472,
+            "request_arrival_variance": 8.05702504502064e-06,
+            "request_arrival_moving_variance": 1.852927851064456e-05,
+            "low_fidelity_service_time": 0.0,
+            "low_fidelity_service_time_variance": 0.0,
+            "service_time": 0.0,
+            "service_time_variance": 0.0,
+            "server_threads": 100.0
+        },
+        "current_normalized_state": {
+            "basic_response_time": 2.6191432783528374,
+            "opt_response_time": 2.1335075740102636,
+            "basic_throughput": -1.5023221928093196,
+            "opt_throughput": 2.0836010351788783,
+            "avg_response_time": 2.1857342464476965,
+            "utilization": 1.2949044455100773,
+            "current_dimmer": 1.8552658815787453,
+            "active_servers": -1.2390270670474137,
+            "max_servers": 0.0,
+            "is_booting": -0.5783356143659629,
+            "boot_remaining": -0.5398100475076667,
+            "request_arrival_mean": -0.3413495236057331,
+            "request_arrival_moving_mean": -0.08933731881058662,
+            "request_arrival_variance": -0.09650933628723467,
+            "request_arrival_moving_variance": -0.10088459255751532,
+            "low_fidelity_service_time": 0.0,
+            "low_fidelity_service_time_variance": 0.0,
+            "service_time": 0.0,
+            "service_time_variance": 0.0,
+            "server_threads": 0.0
+        },
+        "last_rewards": {
+            "Running Costs": -0.35,
+            "User Satisfaction": -4.320841464025506,
+            "Revenue": 3.1305
+        },
+        "current_selected_action": "Decrease Dimmer",
+        "is_greedy_action": true,
+        "absolute_reward_channel_dominance": {
+            "No Operation": {
+                "Running Costs": -9.83305549621582,
+                "User Satisfaction": -49.642147064208984,
+                "Revenue": 47.69211196899414
+            },
+            "Increase Dimmer": {
+                "Running Costs": -9.937525749206543,
+                "User Satisfaction": -57.43350601196289,
+                "Revenue": 52.10145950317383
+            },
+            "Decrease Dimmer": {
+                "Running Costs": -9.812353134155273,
+                "User Satisfaction": -45.91433334350586,
+                "Revenue": 45.8978271484375
+            },
+            "Add Server": {
+                "Running Costs": -11.029184341430664,
+                "User Satisfaction": -36.883907318115234,
+                "Revenue": 36.81559371948242
+            },
+            "Remove Server": {
+                "Running Costs": -7.639385223388672,
+                "User Satisfaction": -64.40895080566406,
+                "Revenue": 54.86998748779297
+            }
+        },
+        "relative_reward_channel_dominance": {
+            "No Operation": {
+                "Running Costs": 1.1961288452148438,
+                "User Satisfaction": 14.766803741455078,
+                "Revenue": 10.876518249511719
+            },
+            "Increase Dimmer": {
+                "Running Costs": 1.091658592224121,
+                "User Satisfaction": 6.975444793701172,
+                "Revenue": 15.285865783691406
+            },
+            "Decrease Dimmer": {
+                "Running Costs": 1.2168312072753906,
+                "User Satisfaction": 18.494617462158203,
+                "Revenue": 9.082233428955078
+            },
+            "Add Server": {
+                "Running Costs": 0.0,
+                "User Satisfaction": 27.525043487548828,
+                "Revenue": 0.0
+            },
+            "Remove Server": {
+                "Running Costs": 3.389799118041992,
+                "User Satisfaction": 0.0,
+                "Revenue": 18.054393768310547
+            }
+        },
+        "current_state_value": {
+            "Running Costs": -7.639385223388672,
+            "User Satisfaction": -36.883907318115234,
+            "Revenue": 54.86998748779297
+        },
+        "min_next_state_value": {
+            "Running Costs": -7.795433044433594,
+            "User Satisfaction": -74.35009002685547,
+            "Revenue": 48.87419128417969
+        },
+        "max_next_state_value": {
+            "Running Costs": -6.965161323547363,
+            "User Satisfaction": -51.97191619873047,
+            "Revenue": 70.16072845458984
+        },
+        "contrastive_important_actions_explanations": [
+            [
+                "Running Costs",
+                "Remove Server",
+                "To achieve the goal <b><u>Running Costs</u></b>, it would currently be most important to choose <b><u>Remove Server</u></b>. However, taking into account all the contrastive target dimensions, I have chosen the action <b><u>Decrease Dimmer</u></b>.\n\nMore specifically, compared to the action <b><u>Remove Server</u></b>, the action <b><u>Decrease Dimmer</u></b> has a higher positive impact on the goal <b><u>User Satisfaction</u></b>."
+            ]
+        ]
+    },
+    {
+        "timestep": 23390,
+        "current_state": {
+            "basic_response_time": 9.62604415043236,
+            "opt_response_time": 11.35971945210492,
+            "basic_throughput": 31.833333333333332,
+            "opt_throughput": 323.05,
+            "avg_response_time": 11.20420732012753,
+            "utilization": 5.0,
+            "current_dimmer": 0.7999999999999999,
+            "active_servers": 5.0,
+            "max_servers": 20.0,
+            "is_booting": 0.0,
+            "boot_remaining": 0.0,
+            "request_arrival_mean": 0.002851304471795847,
+            "request_arrival_moving_mean": 0.004184424440630782,
+            "request_arrival_variance": 8.129937190882994e-06,
+            "request_arrival_moving_variance": 1.7932576419534815e-05,
+            "low_fidelity_service_time": 0.0,
+            "low_fidelity_service_time_variance": 0.0,
+            "service_time": 0.0,
+            "service_time_variance": 0.0,
+            "server_threads": 100.0
+        },
+        "current_normalized_state": {
+            "basic_response_time": 2.6185384523058763,
+            "opt_response_time": 2.132755284033549,
+            "basic_throughput": -1.4221641332996153,
+            "opt_throughput": 2.09068430902663,
+            "avg_response_time": 2.1753661261554544,
+            "utilization": 1.2949044455100773,
+            "current_dimmer": 1.7051530192292053,
+            "active_servers": -1.2390270670474137,
+            "max_servers": 0.0,
+            "is_booting": -0.5783356143659629,
+            "boot_remaining": -0.5398100475076667,
+            "request_arrival_mean": -0.33894355319837965,
+            "request_arrival_moving_mean": -0.10796812465274326,
+            "request_arrival_variance": -0.09634177347578847,
+            "request_arrival_moving_variance": -0.1027945822022514,
+            "low_fidelity_service_time": 0.0,
+            "low_fidelity_service_time_variance": 0.0,
+            "service_time": 0.0,
+            "service_time_variance": 0.0,
+            "server_threads": 0.0
+        },
+        "last_rewards": {
+            "Running Costs": -0.35,
+            "User Satisfaction": -4.328561366236776,
+            "Revenue": 3.010166666666666
+        },
+        "current_selected_action": "Add Server",
+        "is_greedy_action": true,
+        "absolute_reward_channel_dominance": {
+            "No Operation": {
+                "Running Costs": -9.71077823638916,
+                "User Satisfaction": -47.48580551147461,
+                "Revenue": 44.208229064941406
+            },
+            "Increase Dimmer": {
+                "Running Costs": -9.781210899353027,
+                "User Satisfaction": -54.69934844970703,
+                "Revenue": 47.50870132446289
+            },
+            "Decrease Dimmer": {
+                "Running Costs": -10.033784866333008,
+                "User Satisfaction": -45.49627685546875,
+                "Revenue": 43.70613479614258
+            },
+            "Add Server": {
+                "Running Costs": -11.204389572143555,
+                "User Satisfaction": -35.975135803222656,
+                "Revenue": 36.83759307861328
+            },
+            "Remove Server": {
+                "Running Costs": -7.929222106933594,
+                "User Satisfaction": -63.628639221191406,
+                "Revenue": 55.53199768066406
+            }
+        },
+        "relative_reward_channel_dominance": {
+            "No Operation": {
+                "Running Costs": 1.4936113357543945,
+                "User Satisfaction": 16.142833709716797,
+                "Revenue": 7.370635986328125
+            },
+            "Increase Dimmer": {
+                "Running Costs": 1.4231786727905273,
+                "User Satisfaction": 8.929290771484375,
+                "Revenue": 10.67110824584961
+            },
+            "Decrease Dimmer": {
+                "Running Costs": 1.1706047058105469,
+                "User Satisfaction": 18.132362365722656,
+                "Revenue": 6.868541717529297
+            },
+            "Add Server": {
+                "Running Costs": 0.0,
+                "User Satisfaction": 27.65350341796875,
+                "Revenue": 0.0
+            },
+            "Remove Server": {
+                "Running Costs": 3.275167465209961,
+                "User Satisfaction": 0.0,
+                "Revenue": 18.69440460205078
+            }
+        },
+        "current_state_value": {
+            "Running Costs": -7.929222106933594,
+            "User Satisfaction": -35.975135803222656,
+            "Revenue": 55.53199768066406
+        },
+        "min_next_state_value": {
+            "Running Costs": -8.291776657104492,
+            "User Satisfaction": -64.97323608398438,
+            "Revenue": 48.822898864746094
+        },
+        "max_next_state_value": {
+            "Running Costs": -7.295407295227051,
+            "User Satisfaction": -48.11817169189453,
+            "Revenue": 61.466583251953125
+        },
+        "contrastive_important_actions_explanations": [
+            [
+                "Running Costs",
+                "Remove Server",
+                "To achieve the goal <b><u>Running Costs</u></b>, it would currently be most important to choose <b><u>Remove Server</u></b>. However, taking into account all the contrastive target dimensions, I have chosen the action <b><u>Add Server</u></b>.\n\nMore specifically, compared to the action <b><u>Remove Server</u></b>, the action <b><u>Add Server</u></b> has a higher positive impact on the goal <b><u>User Satisfaction</u></b>."
+            ],
+            [
+                "Revenue",
+                "Remove Server",
+                "To achieve the goal <b><u>Revenue</u></b>, it would currently be most important to choose <b><u>Remove Server</u></b>. However, taking into account all the contrastive target dimensions, I have chosen the action <b><u>Add Server</u></b>.\n\nMore specifically, compared to the action <b><u>Remove Server</u></b>, the action <b><u>Add Server</u></b> has a higher positive impact on the goal <b><u>User Satisfaction</u></b>."
+            ]
+        ]
+    },
+    {
+        "timestep": 23391,
+        "current_state": {
+            "basic_response_time": 9.639208305585813,
+            "opt_response_time": 11.408657812074736,
+            "basic_throughput": 32.166666666666664,
+            "opt_throughput": 311.01666666666665,
+            "avg_response_time": 11.242806831183879,
+            "utilization": 5.0,
+            "current_dimmer": 0.7999999999999999,
+            "active_servers": 5.0,
+            "max_servers": 20.0,
+            "is_booting": 1.0,
+            "boot_remaining": 2.0,
+            "request_arrival_mean": 0.0029940119760479044,
+            "request_arrival_moving_mean": 0.004135159659409301,
+            "request_arrival_variance": 8.964107712718277e-06,
+            "request_arrival_moving_variance": 1.7589037356209818e-05,
+            "low_fidelity_service_time": 0.0,
+            "low_fidelity_service_time_variance": 0.0,
+            "service_time": 0.0,
+            "service_time_variance": 0.0,
+            "server_threads": 100.0
+        },
+        "current_normalized_state": {
+            "basic_response_time": 2.622683708640133,
+            "opt_response_time": 2.1441204147832646,
+            "basic_throughput": -1.4191731609298504,
+            "opt_throughput": 1.990407373378069,
+            "avg_response_time": 2.184540600063344,
+            "utilization": 1.2949044455100773,
+            "current_dimmer": 1.7051530192292053,
+            "active_servers": -1.2390270670474137,
+            "max_servers": 0.0,
+            "is_booting": 1.7290998084155684,
+            "boot_remaining": 2.32755448828149,
+            "request_arrival_mean": -0.31214978563978757,
+            "request_arrival_moving_mean": -0.1192439784859971,
+            "request_arrival_variance": -0.0944247271975438,
+            "request_arrival_moving_variance": -0.1038942197991178,
+            "low_fidelity_service_time": 0.0,
+            "low_fidelity_service_time_variance": 0.0,
+            "service_time": 0.0,
+            "service_time_variance": 0.0,
+            "server_threads": 0.0
+        },
+        "last_rewards": {
+            "Running Costs": -0.35,
+            "User Satisfaction": -4.373258085567025,
+            "Revenue": 2.342333333333333
+        },
+        "current_selected_action": "Decrease Dimmer",
+        "is_greedy_action": true,
+        "absolute_reward_channel_dominance": {
+            "No Operation": {
+                "Running Costs": -11.018033981323242,
+                "User Satisfaction": -38.53417205810547,
+                "Revenue": 34.740264892578125
+            },
+            "Increase Dimmer": {
+                "Running Costs": -11.079851150512695,
+                "User Satisfaction": -44.045772552490234,
+                "Revenue": 37.81925582885742
+            },
+            "Decrease Dimmer": {
+                "Running Costs": -11.16469669342041,
+                "User Satisfaction": -33.76624298095703,
+                "Revenue": 32.29139709472656
+            },
+            "Add Server": {
+                "Running Costs": -11.153096199035645,
+                "User Satisfaction": -38.08236312866211,
+                "Revenue": 34.926387786865234
+            },
+            "Remove Server": {
+                "Running Costs": -10.94894790649414,
+                "User Satisfaction": -39.02757263183594,
+                "Revenue": 34.73890686035156
+            }
+        },
+        "relative_reward_channel_dominance": {
+            "No Operation": {
+                "Running Costs": 0.14666271209716797,
+                "User Satisfaction": 5.511600494384766,
+                "Revenue": 2.4488677978515625
+            },
+            "Increase Dimmer": {
+                "Running Costs": 0.08484554290771484,
+                "User Satisfaction": 0.0,
+                "Revenue": 5.527858734130859
+            },
+            "Decrease Dimmer": {
+                "Running Costs": 0.0,
+                "User Satisfaction": 10.279529571533203,
+                "Revenue": 0.0
+            },
+            "Add Server": {
+                "Running Costs": 0.011600494384765625,
+                "User Satisfaction": 5.963409423828125,
+                "Revenue": 2.634990692138672
+            },
+            "Remove Server": {
+                "Running Costs": 0.21574878692626953,
+                "User Satisfaction": 5.018199920654297,
+                "Revenue": 2.447509765625
+            }
+        },
+        "current_state_value": {
+            "Running Costs": -10.94894790649414,
+            "User Satisfaction": -33.76624298095703,
+            "Revenue": 37.81925582885742
+        },
+        "min_next_state_value": {
+            "Running Costs": -9.592442512512207,
+            "User Satisfaction": -48.91973114013672,
+            "Revenue": 37.694053649902344
+        },
+        "max_next_state_value": {
+            "Running Costs": -7.796147346496582,
+            "User Satisfaction": -34.16727828979492,
+            "Revenue": 52.81082534790039
+        },
+        "contrastive_important_actions_explanations": [
+            [
+                "Revenue",
+                "Increase Dimmer",
+                "To achieve the goal <b><u>Revenue</u></b>, it would currently be most important to choose <b><u>Increase Dimmer</u></b>. However, taking into account all the contrastive target dimensions, I have chosen the action <b><u>Decrease Dimmer</u></b>.\n\nMore specifically, compared to the action <b><u>Increase Dimmer</u></b>, the action <b><u>Decrease Dimmer</u></b> has a higher positive impact on the goal <b><u>User Satisfaction</u></b>."
+            ]
+        ]
+    },
+    {
+        "timestep": 23392,
+        "current_state": {
+            "basic_response_time": 9.63973234951681,
+            "opt_response_time": 11.772420265446005,
+            "basic_throughput": 40.93333333333333,
+            "opt_throughput": 244.23333333333332,
+            "avg_response_time": 11.46629042783513,
+            "utilization": 5.0,
+            "current_dimmer": 0.7499999999999999,
+            "active_servers": 5.0,
+            "max_servers": 20.0,
+            "is_booting": 1.0,
+            "boot_remaining": 1.0,
+            "request_arrival_mean": 0.0033171163202122956,
+            "request_arrival_moving_mean": 0.004072809176926078,
+            "request_arrival_variance": 1.1003260681818762e-05,
+            "request_arrival_moving_variance": 1.7097638096855583e-05,
+            "low_fidelity_service_time": 0.0,
+            "low_fidelity_service_time_variance": 0.0,
+            "service_time": 0.0,
+            "service_time_variance": 0.0,
+            "server_threads": 100.0
+        },
+        "current_normalized_state": {
+            "basic_response_time": 2.6228487246551433,
+            "opt_response_time": 2.2285982731943674,
+            "basic_throughput": -1.3405105876050283,
+            "opt_throughput": 1.433884269300806,
+            "avg_response_time": 2.2376590041624294,
+            "utilization": 1.2949044455100773,
+            "current_dimmer": 1.5550401568796655,
+            "active_servers": -1.2390270670474137,
+            "max_servers": 0.0,
+            "is_booting": 1.7290998084155684,
+            "boot_remaining": 0.8938722203869118,
+            "request_arrival_mean": -0.2514859632284499,
+            "request_arrival_moving_mean": -0.1335149223424801,
+            "request_arrival_variance": -0.08973845441774694,
+            "request_arrival_moving_variance": -0.10546714456472743,
+            "low_fidelity_service_time": 0.0,
+            "low_fidelity_service_time_variance": 0.0,
+            "service_time": 0.0,
+            "service_time_variance": 0.0,
+            "server_threads": 0.0
+        },
+        "last_rewards": {
+            "Running Costs": -0.4,
+            "User Satisfaction": -4.3451112685895765,
+            "Revenue": 2.673666666666667
+        },
+        "current_selected_action": "Decrease Dimmer",
+        "is_greedy_action": true,
+        "absolute_reward_channel_dominance": {
+            "No Operation": {
+                "Running Costs": -11.129429817199707,
+                "User Satisfaction": -34.38578796386719,
+                "Revenue": 30.327428817749023
+            },
+            "Increase Dimmer": {
+                "Running Costs": -11.175621032714844,
+                "User Satisfaction": -39.32124328613281,
+                "Revenue": 32.73990249633789
+            },
+            "Decrease Dimmer": {
+                "Running Costs": -11.260414123535156,
+                "User Satisfaction": -29.286903381347656,
+                "Revenue": 28.586551666259766
+            },
+            "Add Server": {
+                "Running Costs": -11.224299430847168,
+                "User Satisfaction": -33.722843170166016,
+                "Revenue": 29.806438446044922
+            },
+            "Remove Server": {
+                "Running Costs": -10.926921844482422,
+                "User Satisfaction": -32.506553649902344,
+                "Revenue": 30.70722770690918
+            }
+        },
+        "relative_reward_channel_dominance": {
+            "No Operation": {
+                "Running Costs": 0.13098430633544922,
+                "User Satisfaction": 4.935455322265625,
+                "Revenue": 1.7408771514892578
+            },
+            "Increase Dimmer": {
+                "Running Costs": 0.0847930908203125,
+                "User Satisfaction": 0.0,
+                "Revenue": 4.153350830078125
+            },
+            "Decrease Dimmer": {
+                "Running Costs": 0.0,
+                "User Satisfaction": 10.034339904785156,
+                "Revenue": 0.0
+            },
+            "Add Server": {
+                "Running Costs": 0.03611469268798828,
+                "User Satisfaction": 5.598400115966797,
+                "Revenue": 1.2198867797851562
+            },
+            "Remove Server": {
+                "Running Costs": 0.3334922790527344,
+                "User Satisfaction": 6.814689636230469,
+                "Revenue": 2.120676040649414
+            }
+        },
+        "current_state_value": {
+            "Running Costs": -10.926921844482422,
+            "User Satisfaction": -29.286903381347656,
+            "Revenue": 32.73990249633789
+        },
+        "min_next_state_value": {
+            "Running Costs": -11.252913475036621,
+            "User Satisfaction": -34.12222671508789,
+            "Revenue": 30.450637817382812
+        },
+        "max_next_state_value": {
+            "Running Costs": -10.027073860168457,
+            "User Satisfaction": -23.760887145996094,
+            "Revenue": 34.886470794677734
+        },
+        "contrastive_important_actions_explanations": [
+            [
+                "Running Costs",
+                "Remove Server",
+                "To achieve the goal <b><u>Running Costs</u></b>, it would currently be most important to choose <b><u>Remove Server</u></b>. However, taking into account all the contrastive target dimensions, I have chosen the action <b><u>Decrease Dimmer</u></b>.\n\nMore specifically, compared to the action <b><u>Remove Server</u></b>, the action <b><u>Decrease Dimmer</u></b> has a higher positive impact on the goal <b><u>User Satisfaction</u></b>."
+            ],
+            [
+                "Revenue",
+                "Increase Dimmer",
+                "To achieve the goal <b><u>Revenue</u></b>, it would currently be most important to choose <b><u>Increase Dimmer</u></b>. However, taking into account all the contrastive target dimensions, I have chosen the action <b><u>Decrease Dimmer</u></b>.\n\nMore specifically, compared to the action <b><u>Increase Dimmer</u></b>, the action <b><u>Decrease Dimmer</u></b> has a higher positive impact on the goal <b><u>User Satisfaction</u></b>."
+            ]
+        ]
+    },
+    {
+        "timestep": 23393,
+        "current_state": {
+            "basic_response_time": 9.403574010510477,
+            "opt_response_time": 11.750443556085564,
+            "basic_throughput": 61.31666666666667,
+            "opt_throughput": 277.3666666666667,
+            "avg_response_time": 11.325556342947886,
+            "utilization": 5.9833288226666665,
+            "current_dimmer": 0.6999999999999998,
+            "active_servers": 6.0,
+            "max_servers": 20.0,
+            "is_booting": 0.0,
+            "boot_remaining": 0.0,
+            "request_arrival_mean": 0.0029770765108663296,
+            "request_arrival_moving_mean": 0.0040212086392460876,
+            "request_arrival_variance": 8.86298455155204e-06,
+            "request_arrival_moving_variance": 1.673714828972796e-05,
+            "low_fidelity_service_time": 0.0,
+            "low_fidelity_service_time_variance": 0.0,
+            "service_time": 0.0,
+            "service_time_variance": 0.0,
+            "server_threads": 100.0
+        },
+        "current_normalized_state": {
+            "basic_response_time": 2.548484905690517,
+            "opt_response_time": 2.223494543206604,
+            "basic_throughput": -1.1576126271938934,
+            "opt_throughput": 1.7099930616406112,
+            "avg_response_time": 2.204208808695863,
+            "utilization": 1.7071984880195101,
+            "current_dimmer": 1.4049272945301254,
+            "active_servers": -0.9182068138541919,
+            "max_servers": 0.0,
+            "is_booting": -0.5783356143659629,
+            "boot_remaining": -0.5398100475076667,
+            "request_arrival_mean": -0.31532947068823663,
+            "request_arrival_moving_mean": -0.1453253903110901,
+            "request_arrival_variance": -0.09465712306227847,
+            "request_arrival_moving_variance": -0.10662103996564036,
+            "low_fidelity_service_time": 0.0,
+            "low_fidelity_service_time_variance": 0.0,
+            "service_time": 0.0,
+            "service_time_variance": 0.0,
+            "server_threads": 0.0
+        },
+        "last_rewards": {
+            "Running Costs": -0.30000000000000004,
+            "User Satisfaction": -4.288620602813215,
+            "Revenue": 2.6555
+        },
+        "current_selected_action": "No Operation",
+        "is_greedy_action": true,
+        "absolute_reward_channel_dominance": {
+            "No Operation": {
+                "Running Costs": -11.03720474243164,
+                "User Satisfaction": -31.69591522216797,
+                "Revenue": 34.554931640625
+            },
+            "Increase Dimmer": {
+                "Running Costs": -11.125007629394531,
+                "User Satisfaction": -38.98528289794922,
+                "Revenue": 37.35331726074219
+            },
+            "Decrease Dimmer": {
+                "Running Costs": -11.066415786743164,
+                "User Satisfaction": -28.274354934692383,
+                "Revenue": 29.394771575927734
+            },
+            "Add Server": {
+                "Running Costs": -11.45875072479248,
+                "User Satisfaction": -28.288999557495117,
+                "Revenue": 31.535737991333008
+            },
+            "Remove Server": {
+                "Running Costs": -10.021291732788086,
+                "User Satisfaction": -44.52738571166992,
+                "Revenue": 36.591670989990234
+            }
+        },
+        "relative_reward_channel_dominance": {
+            "No Operation": {
+                "Running Costs": 0.42154598236083984,
+                "User Satisfaction": 12.831470489501953,
+                "Revenue": 5.160160064697266
+            },
+            "Increase Dimmer": {
+                "Running Costs": 0.3337430953979492,
+                "User Satisfaction": 5.542102813720703,
+                "Revenue": 7.958545684814453
+            },
+            "Decrease Dimmer": {
+                "Running Costs": 0.3923349380493164,
+                "User Satisfaction": 16.25303077697754,
+                "Revenue": 0.0
+            },
+            "Add Server": {
+                "Running Costs": 0.0,
+                "User Satisfaction": 16.238386154174805,
+                "Revenue": 2.1409664154052734
+            },
+            "Remove Server": {
+                "Running Costs": 1.4374589920043945,
+                "User Satisfaction": 0.0,
+                "Revenue": 7.1968994140625
+            }
+        },
+        "current_state_value": {
+            "Running Costs": -10.021291732788086,
+            "User Satisfaction": -28.274354934692383,
+            "Revenue": 37.35331726074219
+        },
+        "min_next_state_value": {
+            "Running Costs": -10.986847877502441,
+            "User Satisfaction": -35.57794189453125,
+            "Revenue": 24.779035568237305
+        },
+        "max_next_state_value": {
+            "Running Costs": -8.422447204589844,
+            "User Satisfaction": -23.678831100463867,
+            "Revenue": 45.419498443603516
+        },
+        "contrastive_important_actions_explanations": [
+            [
+                "Running Costs",
+                "Remove Server",
+                "To achieve the goal <b><u>Running Costs</u></b>, it would currently be most important to choose <b><u>Remove Server</u></b>. However, taking into account all the contrastive target dimensions, I have chosen the action <b><u>No Operation</u></b>.\n\nMore specifically, compared to the action <b><u>Remove Server</u></b>, the action <b><u>No Operation</u></b> has a higher positive impact on the goal <b><u>User Satisfaction</u></b>."
+            ]
+        ]
+    },
+    {
+        "timestep": 23394,
+        "current_state": {
+            "basic_response_time": 9.633860562227737,
+            "opt_response_time": 11.974488994522863,
+            "basic_throughput": 60.0,
+            "opt_throughput": 265.55,
+            "avg_response_time": 11.543103014066075,
+            "utilization": 6.0,
+            "current_dimmer": 0.6999999999999998,
+            "active_servers": 6.0,
+            "max_servers": 20.0,
+            "is_booting": 0.0,
+            "boot_remaining": 0.0,
+            "request_arrival_mean": 0.0029878990090134953,
+            "request_arrival_moving_mean": 0.003960872046072601,
+            "request_arrival_variance": 8.927540488063826e-06,
+            "request_arrival_moving_variance": 1.6303778906311685e-05,
+            "low_fidelity_service_time": 0.0,
+            "low_fidelity_service_time_variance": 0.0,
+            "service_time": 0.0,
+            "service_time_variance": 0.0,
+            "server_threads": 100.0
+        },
+        "current_normalized_state": {
+            "basic_response_time": 2.62099975955486,
+            "opt_response_time": 2.2755254184400133,
+            "basic_throughput": -1.1694269680544653,
+            "opt_throughput": 1.6115216663846144,
+            "avg_response_time": 2.2559161024750107,
+            "utilization": 1.7141884459437697,
+            "current_dimmer": 1.4049272945301254,
+            "active_servers": -0.9182068138541919,
+            "max_servers": 0.0,
+            "is_booting": -0.5783356143659629,
+            "boot_remaining": -0.5398100475076667,
+            "request_arrival_mean": -0.3132975137755414,
+            "request_arrival_moving_mean": -0.15913538983919276,
+            "request_arrival_variance": -0.0945087640462391,
+            "request_arrival_moving_variance": -0.10800821632550753,
+            "low_fidelity_service_time": 0.0,
+            "low_fidelity_service_time_variance": 0.0,
+            "service_time": 0.0,
+            "service_time_variance": 0.0,
+            "server_threads": 0.0
+        },
+        "last_rewards": {
+            "Running Costs": -0.4,
+            "User Satisfaction": -4.333838498565852,
+            "Revenue": 3.211
+        },
+        "current_selected_action": "Add Server",
+        "is_greedy_action": true,
+        "absolute_reward_channel_dominance": {
+            "No Operation": {
+                "Running Costs": -11.10008716583252,
+                "User Satisfaction": -30.938386917114258,
+                "Revenue": 32.542762756347656
+            },
+            "Increase Dimmer": {
+                "Running Costs": -11.186120986938477,
+                "User Satisfaction": -37.77663040161133,
+                "Revenue": 35.25981903076172
+            },
+            "Decrease Dimmer": {
+                "Running Costs": -11.1417875289917,
+                "User Satisfaction": -27.305400848388672,
+                "Revenue": 27.51356315612793
+            },
+            "Add Server": {
+                "Running Costs": -11.464863777160645,
+                "User Satisfaction": -27.174985885620117,
+                "Revenue": 29.72809600830078
+            },
+            "Remove Server": {
+                "Running Costs": -10.229400634765625,
+                "User Satisfaction": -43.055091857910156,
+                "Revenue": 34.516605377197266
+            }
+        },
+        "relative_reward_channel_dominance": {
+            "No Operation": {
+                "Running Costs": 0.364776611328125,
+                "User Satisfaction": 12.116704940795898,
+                "Revenue": 5.029199600219727
+            },
+            "Increase Dimmer": {
+                "Running Costs": 0.27874279022216797,
+                "User Satisfaction": 5.278461456298828,
+                "Revenue": 7.746255874633789
+            },
+            "Decrease Dimmer": {
+                "Running Costs": 0.3230762481689453,
+                "User Satisfaction": 15.749691009521484,
+                "Revenue": 0.0
+            },
+            "Add Server": {
+                "Running Costs": 0.0,
+                "User Satisfaction": 15.880105972290039,
+                "Revenue": 2.2145328521728516
+            },
+            "Remove Server": {
+                "Running Costs": 1.2354631423950195,
+                "User Satisfaction": 0.0,
+                "Revenue": 7.003042221069336
+            }
+        },
+        "current_state_value": {
+            "Running Costs": -10.229400634765625,
+            "User Satisfaction": -27.174985885620117,
+            "Revenue": 35.25981903076172
+        },
+        "min_next_state_value": {
+            "Running Costs": -10.988541603088379,
+            "User Satisfaction": -33.63108825683594,
+            "Revenue": 26.131383895874023
+        },
+        "max_next_state_value": {
+            "Running Costs": -8.33998966217041,
+            "User Satisfaction": -22.343067169189453,
+            "Revenue": 46.10932540893555
+        },
+        "contrastive_important_actions_explanations": [
+            [
+                "Running Costs",
+                "Remove Server",
+                "To achieve the goal <b><u>Running Costs</u></b>, it would currently be most important to choose <b><u>Remove Server</u></b>. However, taking into account all the contrastive target dimensions, I have chosen the action <b><u>Add Server</u></b>.\n\nMore specifically, compared to the action <b><u>Remove Server</u></b>, the action <b><u>Add Server</u></b> has a higher positive impact on the goal <b><u>User Satisfaction</u></b>."
+            ]
+        ]
+    },
+    {
+        "timestep": 23395,
+        "current_state": {
+            "basic_response_time": 9.63476993286535,
+            "opt_response_time": 11.58232106744029,
+            "basic_throughput": 63.43333333333333,
+            "opt_throughput": 331.1,
+            "avg_response_time": 11.269192492829262,
+            "utilization": 6.0,
+            "current_dimmer": 0.6999999999999998,
+            "active_servers": 6.0,
+            "max_servers": 20.0,
+            "is_booting": 1.0,
+            "boot_remaining": 2.0,
+            "request_arrival_mean": 0.0026587495014844683,
+            "request_arrival_moving_mean": 0.003876150085610295,
+            "request_arrival_variance": 7.068948911643909e-06,
+            "request_arrival_moving_variance": 1.5709713754332254e-05,
+            "low_fidelity_service_time": 0.0,
+            "low_fidelity_service_time_variance": 0.0,
+            "service_time": 0.0,
+            "service_time_variance": 0.0,
+            "server_threads": 100.0
+        },
+        "current_normalized_state": {
+            "basic_response_time": 2.621286110965324,
+            "opt_response_time": 2.18445085505278,
+            "basic_throughput": -1.138619952645885,
+            "opt_throughput": 2.1577670789965127,
+            "avg_response_time": 2.1908120412729124,
+            "utilization": 1.7141884459437697,
+            "current_dimmer": 1.4049272945301254,
+            "active_servers": -0.9182068138541919,
+            "max_servers": 0.0,
+            "is_booting": 1.7290998084155684,
+            "boot_remaining": 2.32755448828149,
+            "request_arrival_mean": -0.3750963339776027,
+            "request_arrival_moving_mean": -0.17852677693060912,
+            "request_arrival_variance": -0.09878008024728827,
+            "request_arrival_moving_variance": -0.10990976536561403,
+            "low_fidelity_service_time": 0.0,
+            "low_fidelity_service_time_variance": 0.0,
+            "service_time": 0.0,
+            "service_time_variance": 0.0,
+            "server_threads": 0.0
+        },
+        "last_rewards": {
+            "Running Costs": -0.4,
+            "User Satisfaction": -4.374992743099634,
+            "Revenue": 2.5766666666666667
+        },
+        "current_selected_action": "Add Server",
+        "is_greedy_action": true,
+        "absolute_reward_channel_dominance": {
+            "No Operation": {
+                "Running Costs": -11.214752197265625,
+                "User Satisfaction": -33.041221618652344,
+                "Revenue": 40.306034088134766
+            },
+            "Increase Dimmer": {
+                "Running Costs": -11.297136306762695,
+                "User Satisfaction": -39.34754180908203,
+                "Revenue": 43.08961868286133
+            },
+            "Decrease Dimmer": {
+                "Running Costs": -11.342021942138672,
+                "User Satisfaction": -31.101318359375,
+                "Revenue": 36.820884704589844
+            },
+            "Add Server": {
+                "Running Costs": -11.368154525756836,
+                "User Satisfaction": -35.33078384399414,
+                "Revenue": 43.50547790527344
+            },
+            "Remove Server": {
+                "Running Costs": -11.174590110778809,
+                "User Satisfaction": -35.911582946777344,
+                "Revenue": 37.78043746948242
+            }
+        },
+        "relative_reward_channel_dominance": {
+            "No Operation": {
+                "Running Costs": 0.15340232849121094,
+                "User Satisfaction": 6.3063201904296875,
+                "Revenue": 3.485149383544922
+            },
+            "Increase Dimmer": {
+                "Running Costs": 0.07101821899414062,
+                "User Satisfaction": 0.0,
+                "Revenue": 6.268733978271484
+            },
+            "Decrease Dimmer": {
+                "Running Costs": 0.026132583618164062,
+                "User Satisfaction": 8.246223449707031,
+                "Revenue": 0.0
+            },
+            "Add Server": {
+                "Running Costs": 0.0,
+                "User Satisfaction": 4.016757965087891,
+                "Revenue": 6.684593200683594
+            },
+            "Remove Server": {
+                "Running Costs": 0.19356441497802734,
+                "User Satisfaction": 3.4359588623046875,
+                "Revenue": 0.9595527648925781
+            }
+        },
+        "current_state_value": {
+            "Running Costs": -11.174590110778809,
+            "User Satisfaction": -31.101318359375,
+            "Revenue": 43.50547790527344
+        },
+        "min_next_state_value": {
+            "Running Costs": -10.92098617553711,
+            "User Satisfaction": -39.25184631347656,
+            "Revenue": 27.103321075439453
+        },
+        "max_next_state_value": {
+            "Running Costs": -9.200594902038574,
+            "User Satisfaction": -24.309139251708984,
+            "Revenue": 39.98851776123047
+        },
+        "contrastive_important_actions_explanations": []
+    },
+    {
+        "timestep": 23396,
+        "current_state": {
+            "basic_response_time": 9.632130972428522,
+            "opt_response_time": 11.93498342078872,
+            "basic_throughput": 66.81666666666666,
+            "opt_throughput": 267.6666666666667,
+            "avg_response_time": 11.474963715498172,
+            "utilization": 6.0,
+            "current_dimmer": 0.6999999999999998,
+            "active_servers": 6.0,
+            "max_servers": 20.0,
+            "is_booting": 1.0,
+            "boot_remaining": 1.0,
+            "request_arrival_mean": 0.002840909090909091,
+            "request_arrival_moving_mean": 0.003818488443896929,
+            "request_arrival_variance": 8.070764462809918e-06,
+            "request_arrival_moving_variance": 1.5315593491550154e-05,
+            "low_fidelity_service_time": 0.0,
+            "low_fidelity_service_time_variance": 0.0,
+            "service_time": 0.0,
+            "service_time_variance": 0.0,
+            "server_threads": 100.0
+        },
+        "current_normalized_state": {
+            "basic_response_time": 2.620455129611861,
+            "opt_response_time": 2.2663508974485462,
+            "basic_throughput": -1.1082615830927693,
+            "opt_throughput": 1.6291604071427408,
+            "avg_response_time": 2.239720503108466,
+            "utilization": 1.7141884459437697,
+            "current_dimmer": 1.4049272945301254,
+            "active_servers": -0.9182068138541919,
+            "max_servers": 0.0,
+            "is_booting": 1.7290998084155684,
+            "boot_remaining": 0.8938722203869118,
+            "request_arrival_mean": -0.34089531754758173,
+            "request_arrival_moving_mean": -0.1917245264714488,
+            "request_arrival_variance": -0.0964777610888205,
+            "request_arrival_moving_variance": -0.11117130882575926,
+            "low_fidelity_service_time": 0.0,
+            "low_fidelity_service_time_variance": 0.0,
+            "service_time": 0.0,
+            "service_time_variance": 0.0,
+            "server_threads": 0.0
+        },
+        "last_rewards": {
+            "Running Costs": -0.45000000000000007,
+            "User Satisfaction": -4.347817333239767,
+            "Revenue": 2.3095
+        },
+        "current_selected_action": "Decrease Dimmer",
+        "is_greedy_action": true,
+        "absolute_reward_channel_dominance": {
+            "No Operation": {
+                "Running Costs": -11.562446594238281,
+                "User Satisfaction": -26.85500717163086,
+                "Revenue": 30.498056411743164
+            },
+            "Increase Dimmer": {
+                "Running Costs": -11.640928268432617,
+                "User Satisfaction": -30.37185287475586,
+                "Revenue": 32.1679801940918
+            },
+            "Decrease Dimmer": {
+                "Running Costs": -11.676310539245605,
+                "User Satisfaction": -23.849061965942383,
+                "Revenue": 28.795366287231445
+            },
+            "Add Server": {
+                "Running Costs": -11.694334983825684,
+                "User Satisfaction": -28.181934356689453,
+                "Revenue": 30.97159194946289
+            },
+            "Remove Server": {
+                "Running Costs": -11.473542213439941,
+                "User Satisfaction": -25.58900260925293,
+                "Revenue": 29.840831756591797
+            }
+        },
+        "relative_reward_channel_dominance": {
+            "No Operation": {
+                "Running Costs": 0.13188838958740234,
+                "User Satisfaction": 3.516845703125,
+                "Revenue": 1.7026901245117188
+            },
+            "Increase Dimmer": {
+                "Running Costs": 0.053406715393066406,
+                "User Satisfaction": 0.0,
+                "Revenue": 3.3726139068603516
+            },
+            "Decrease Dimmer": {
+                "Running Costs": 0.018024444580078125,
+                "User Satisfaction": 6.522790908813477,
+                "Revenue": 0.0
+            },
+            "Add Server": {
+                "Running Costs": 0.0,
+                "User Satisfaction": 2.1899185180664062,
+                "Revenue": 2.1762256622314453
+            },
+            "Remove Server": {
+                "Running Costs": 0.2207927703857422,
+                "User Satisfaction": 4.78285026550293,
+                "Revenue": 1.0454654693603516
+            }
+        },
+        "current_state_value": {
+            "Running Costs": -11.473542213439941,
+            "User Satisfaction": -23.849061965942383,
+            "Revenue": 32.1679801940918
+        },
+        "min_next_state_value": {
+            "Running Costs": -12.42276668548584,
+            "User Satisfaction": -33.092430114746094,
+            "Revenue": 37.105525970458984
+        },
+        "max_next_state_value": {
+            "Running Costs": -11.454840660095215,
+            "User Satisfaction": -21.259300231933594,
+            "Revenue": 44.55057907104492
+        },
+        "contrastive_important_actions_explanations": []
+    },
+    {
+        "timestep": 23397,
+        "current_state": {
+            "basic_response_time": 9.066516450112097,
+            "opt_response_time": 12.164675569490504,
+            "basic_throughput": 87.53333333333333,
+            "opt_throughput": 240.95,
+            "avg_response_time": 11.33908666619884,
+            "utilization": 6.98332742725,
+            "current_dimmer": 0.6499999999999998,
+            "active_servers": 7.0,
+            "max_servers": 20.0,
+            "is_booting": 0.0,
+            "boot_remaining": 0.0,
+            "request_arrival_mean": 0.00320958596341072,
+            "request_arrival_moving_mean": 0.003780265927257556,
+            "request_arrival_variance": 1.0301442056523121e-05,
+            "request_arrival_moving_variance": 1.5041017370201286e-05,
+            "low_fidelity_service_time": 0.0,
+            "low_fidelity_service_time_variance": 0.0,
+            "service_time": 0.0,
+            "service_time_variance": 0.0,
+            "server_threads": 100.0
+        },
+        "current_normalized_state": {
+            "basic_response_time": 2.4423489652550137,
+            "opt_response_time": 2.319693128446661,
+            "basic_throughput": -0.922372650311869,
+            "opt_throughput": 1.4065233879673344,
+            "avg_response_time": 2.2074247457436145,
+            "utilization": 2.1264819033773206,
+            "current_dimmer": 1.2548144321805854,
+            "active_servers": -0.5973865606609703,
+            "max_servers": 0.0,
+            "is_booting": -0.5783356143659629,
+            "boot_remaining": -0.5398100475076667,
+            "request_arrival_mean": -0.2716751144628871,
+            "request_arrival_moving_mean": -0.20047299749026976,
+            "request_arrival_variance": -0.09135133661438187,
+            "request_arrival_moving_variance": -0.11205020225730863,
+            "low_fidelity_service_time": 0.0,
+            "low_fidelity_service_time_variance": 0.0,
+            "service_time": 0.0,
+            "service_time_variance": 0.0,
+            "server_threads": 0.0
+        },
+        "last_rewards": {
+            "Running Costs": -0.45000000000000007,
+            "User Satisfaction": -4.389809613297647,
+            "Revenue": 2.0871666666666666
+        },
+        "current_selected_action": "Add Server",
+        "is_greedy_action": true,
+        "absolute_reward_channel_dominance": {
+            "No Operation": {
+                "Running Costs": -11.628233909606934,
+                "User Satisfaction": -22.119754791259766,
+                "Revenue": 27.033695220947266
+            },
+            "Increase Dimmer": {
+                "Running Costs": -11.716336250305176,
+                "User Satisfaction": -25.390310287475586,
+                "Revenue": 28.796924591064453
+            },
+            "Decrease Dimmer": {
+                "Running Costs": -11.656170845031738,
+                "User Satisfaction": -19.802011489868164,
+                "Revenue": 24.79206085205078
+            },
+            "Add Server": {
+                "Running Costs": -11.866432189941406,
+                "User Satisfaction": -20.901859283447266,
+                "Revenue": 29.739593505859375
+            },
+            "Remove Server": {
+                "Running Costs": -11.034640312194824,
+                "User Satisfaction": -26.746212005615234,
+                "Revenue": 25.030338287353516
+            }
+        },
+        "relative_reward_channel_dominance": {
+            "No Operation": {
+                "Running Costs": 0.23819828033447266,
+                "User Satisfaction": 4.626457214355469,
+                "Revenue": 2.2416343688964844
+            },
+            "Increase Dimmer": {
+                "Running Costs": 0.15009593963623047,
+                "User Satisfaction": 1.3559017181396484,
+                "Revenue": 4.004863739013672
+            },
+            "Decrease Dimmer": {
+                "Running Costs": 0.21026134490966797,
+                "User Satisfaction": 6.94420051574707,
+                "Revenue": 0.0
+            },
+            "Add Server": {
+                "Running Costs": 0.0,
+                "User Satisfaction": 5.844352722167969,
+                "Revenue": 4.947532653808594
+            },
+            "Remove Server": {
+                "Running Costs": 0.831791877746582,
+                "User Satisfaction": 0.0,
+                "Revenue": 0.23827743530273438
+            }
+        },
+        "current_state_value": {
+            "Running Costs": -11.034640312194824,
+            "User Satisfaction": -19.802011489868164,
+            "Revenue": 29.739593505859375
+        },
+        "min_next_state_value": {
+            "Running Costs": -12.108697891235352,
+            "User Satisfaction": -19.244937896728516,
+            "Revenue": 22.131561279296875
+        },
+        "max_next_state_value": {
+            "Running Costs": -11.095431327819824,
+            "User Satisfaction": -10.950507164001465,
+            "Revenue": 28.2542667388916
+        },
+        "contrastive_important_actions_explanations": [
+            [
+                "Running Costs",
+                "Remove Server",
+                "To achieve the goal <b><u>Running Costs</u></b>, it would currently be most important to choose <b><u>Remove Server</u></b>. However, taking into account all the contrastive target dimensions, I have chosen the action <b><u>Add Server</u></b>.\n\nMore specifically, compared to the action <b><u>Remove Server</u></b>, the action <b><u>Add Server</u></b> has a higher positive impact on the goal <b><u>User Satisfaction</u></b>."
+            ]
+        ]
+    },
+    {
+        "timestep": 23398,
+        "current_state": {
+            "basic_response_time": 9.293770230375772,
+            "opt_response_time": 12.465388950596417,
+            "basic_throughput": 88.86666666666666,
+            "opt_throughput": 218.71666666666667,
+            "avg_response_time": 11.549048066488236,
+            "utilization": 7.0,
+            "current_dimmer": 0.6499999999999998,
+            "active_servers": 7.0,
+            "max_servers": 20.0,
+            "is_booting": 1.0,
+            "boot_remaining": 2.0,
+            "request_arrival_mean": 0.0033549541489599644,
+            "request_arrival_moving_mean": 0.0037301961657445434,
+            "request_arrival_variance": 1.125571734162368e-05,
+            "request_arrival_moving_variance": 1.4654914241590855e-05,
+            "low_fidelity_service_time": 0.0,
+            "low_fidelity_service_time_variance": 0.0,
+            "service_time": 0.0,
+            "service_time_variance": 0.0,
+            "server_threads": 100.0
+        },
+        "current_normalized_state": {
+            "basic_response_time": 2.5139088307489086,
+            "opt_response_time": 2.3895288748134296,
+            "basic_throughput": -0.9104087608328086,
+            "opt_throughput": 1.2212471661457551,
+            "avg_response_time": 2.2573291444238723,
+            "utilization": 2.1334724463774624,
+            "current_dimmer": 1.2548144321805854,
+            "active_servers": -0.5973865606609703,
+            "max_servers": 0.0,
+            "is_booting": 1.7290998084155684,
+            "boot_remaining": 2.32755448828149,
+            "request_arrival_mean": -0.24438179590592288,
+            "request_arrival_moving_mean": -0.2119330973483898,
+            "request_arrival_variance": -0.0891582719641255,
+            "request_arrival_moving_variance": -0.11328608359312668,
+            "low_fidelity_service_time": 0.0,
+            "low_fidelity_service_time_variance": 0.0,
+            "service_time": 0.0,
+            "service_time_variance": 0.0,
+            "server_threads": 0.0
+        },
+        "last_rewards": {
+            "Running Costs": -0.45000000000000007,
+            "User Satisfaction": -4.085761012824685,
+            "Revenue": 1.8719999999999999
+        },
+        "current_selected_action": "Decrease Dimmer",
+        "is_greedy_action": true,
+        "absolute_reward_channel_dominance": {
+            "No Operation": {
+                "Running Costs": -11.881982803344727,
+                "User Satisfaction": -18.884706497192383,
+                "Revenue": 26.297143936157227
+            },
+            "Increase Dimmer": {
+                "Running Costs": -11.981951713562012,
+                "User Satisfaction": -22.974212646484375,
+                "Revenue": 28.186904907226562
+            },
+            "Decrease Dimmer": {
+                "Running Costs": -11.98260498046875,
+                "User Satisfaction": -15.443204879760742,
+                "Revenue": 23.981542587280273
+            },
+            "Add Server": {
+                "Running Costs": -12.050507545471191,
+                "User Satisfaction": -21.231266021728516,
+                "Revenue": 29.18044090270996
+            },
+            "Remove Server": {
+                "Running Costs": -11.970767974853516,
+                "User Satisfaction": -17.882919311523438,
+                "Revenue": 24.274673461914062
+            }
+        },
+        "relative_reward_channel_dominance": {
+            "No Operation": {
+                "Running Costs": 0.16852474212646484,
+                "User Satisfaction": 4.089506149291992,
+                "Revenue": 2.315601348876953
+            },
+            "Increase Dimmer": {
+                "Running Costs": 0.06855583190917969,
+                "User Satisfaction": 0.0,
+                "Revenue": 4.205362319946289
+            },
+            "Decrease Dimmer": {
+                "Running Costs": 0.0679025650024414,
+                "User Satisfaction": 7.531007766723633,
+                "Revenue": 0.0
+            },
+            "Add Server": {
+                "Running Costs": 0.0,
+                "User Satisfaction": 1.7429466247558594,
+                "Revenue": 5.1988983154296875
+            },
+            "Remove Server": {
+                "Running Costs": 0.07973957061767578,
+                "User Satisfaction": 5.0912933349609375,
+                "Revenue": 0.29313087463378906
+            }
+        },
+        "current_state_value": {
+            "Running Costs": -11.881982803344727,
+            "User Satisfaction": -15.443204879760742,
+            "Revenue": 29.18044090270996
+        },
+        "min_next_state_value": {
+            "Running Costs": -12.09866714477539,
+            "User Satisfaction": -19.807567596435547,
+            "Revenue": 20.71070098876953
+        },
+        "max_next_state_value": {
+            "Running Costs": -11.27851676940918,
+            "User Satisfaction": -10.15518569946289,
+            "Revenue": 31.767925262451172
+        },
+        "contrastive_important_actions_explanations": [
+            [
+                "Running Costs",
+                "No Operation",
+                "To achieve the goal <b><u>Running Costs</u></b>, it would currently be most important to choose <b><u>No Operation</u></b>. However, taking into account all the contrastive target dimensions, I have chosen the action <b><u>Decrease Dimmer</u></b>.\n\nMore specifically, compared to the action <b><u>No Operation</u></b>, the action <b><u>Decrease Dimmer</u></b> has a higher positive impact on the goal <b><u>User Satisfaction</u></b>."
+            ]
+        ]
+    },
+    {
+        "timestep": 23399,
+        "current_state": {
+            "basic_response_time": 7.725004867587874,
+            "opt_response_time": 11.332967819058783,
+            "basic_throughput": 111.63333333333334,
+            "opt_throughput": 197.2,
+            "avg_response_time": 10.028805064123427,
+            "utilization": 7.0,
+            "current_dimmer": 0.5999999999999998,
+            "active_servers": 7.0,
+            "max_servers": 20.0,
+            "is_booting": 1.0,
+            "boot_remaining": 1.0,
+            "request_arrival_mean": 0.003067484662576687,
+            "request_arrival_moving_mean": 0.0036669795390076644,
+            "request_arrival_variance": 9.409462155143213e-06,
+            "request_arrival_moving_variance": 1.418715533780063e-05,
+            "low_fidelity_service_time": 0.0,
+            "low_fidelity_service_time_variance": 0.0,
+            "service_time": 0.0,
+            "service_time_variance": 0.0,
+            "server_threads": 100.0
+        },
+        "current_normalized_state": {
+            "basic_response_time": 2.019920839779821,
+            "opt_response_time": 2.126542656403092,
+            "basic_throughput": -0.706125347977853,
+            "opt_throughput": 1.0419431163918875,
+            "avg_response_time": 1.8959921902203076,
+            "utilization": 2.1334724463774624,
+            "current_dimmer": 1.1047015698310454,
+            "active_servers": -0.5973865606609703,
+            "max_servers": 0.0,
+            "is_booting": 1.7290998084155684,
+            "boot_remaining": 0.8938722203869118,
+            "request_arrival_mean": -0.29835506548771734,
+            "request_arrival_moving_mean": -0.2264022865996678,
+            "request_arrival_variance": -0.09340123733066137,
+            "request_arrival_moving_variance": -0.11478333771001917,
+            "low_fidelity_service_time": 0.0,
+            "low_fidelity_service_time_variance": 0.0,
+            "service_time": 0.0,
+            "service_time_variance": 0.0,
+            "server_threads": 0.0
+        },
+        "last_rewards": {
+            "Running Costs": -0.5,
+            "User Satisfaction": -3.560632283800341,
+            "Revenue": 1.8739999999999999
+        },
+        "current_selected_action": "Decrease Dimmer",
+        "is_greedy_action": true,
+        "absolute_reward_channel_dominance": {
+            "No Operation": {
+                "Running Costs": -12.089802742004395,
+                "User Satisfaction": -12.287814140319824,
+                "Revenue": 22.22305679321289
+            },
+            "Increase Dimmer": {
+                "Running Costs": -12.175775527954102,
+                "User Satisfaction": -15.456862449645996,
+                "Revenue": 24.10610008239746
+            },
+            "Decrease Dimmer": {
+                "Running Costs": -12.176777839660645,
+                "User Satisfaction": -9.41392707824707,
+                "Revenue": 20.160057067871094
+            },
+            "Add Server": {
+                "Running Costs": -12.233219146728516,
+                "User Satisfaction": -14.315698623657227,
+                "Revenue": 24.914234161376953
+            },
+            "Remove Server": {
+                "Running Costs": -12.140040397644043,
+                "User Satisfaction": -10.968132972717285,
+                "Revenue": 20.536386489868164
+            }
+        },
+        "relative_reward_channel_dominance": {
+            "No Operation": {
+                "Running Costs": 0.1434164047241211,
+                "User Satisfaction": 3.169048309326172,
+                "Revenue": 2.062999725341797
+            },
+            "Increase Dimmer": {
+                "Running Costs": 0.05744361877441406,
+                "User Satisfaction": 0.0,
+                "Revenue": 3.946043014526367
+            },
+            "Decrease Dimmer": {
+                "Running Costs": 0.056441307067871094,
+                "User Satisfaction": 6.042935371398926,
+                "Revenue": 0.0
+            },
+            "Add Server": {
+                "Running Costs": 0.0,
+                "User Satisfaction": 1.1411638259887695,
+                "Revenue": 4.754177093505859
+            },
+            "Remove Server": {
+                "Running Costs": 0.09317874908447266,
+                "User Satisfaction": 4.488729476928711,
+                "Revenue": 0.3763294219970703
+            }
+        },
+        "current_state_value": {
+            "Running Costs": -12.089802742004395,
+            "User Satisfaction": -9.41392707824707,
+            "Revenue": 24.914234161376953
+        },
+        "min_next_state_value": {
+            "Running Costs": -12.827265739440918,
+            "User Satisfaction": -21.443716049194336,
+            "Revenue": 22.037080764770508
+        },
+        "max_next_state_value": {
+            "Running Costs": -12.19744873046875,
+            "User Satisfaction": -9.007328033447266,
+            "Revenue": 36.56169128417969
+        },
+        "contrastive_important_actions_explanations": []
+    },
+    {
+        "timestep": 23400,
+        "current_state": {
+            "basic_response_time": 5.1213730205702035,
+            "opt_response_time": 9.054009509694,
+            "basic_throughput": 142.81666666666666,
+            "opt_throughput": 197.4,
+            "avg_response_time": 7.403161419001704,
+            "utilization": 7.70037084789475,
+            "current_dimmer": 0.5499999999999997,
+            "active_servers": 8.0,
+            "max_servers": 20.0,
+            "is_booting": 0.0,
+            "boot_remaining": 0.0,
+            "request_arrival_mean": 0.0035178236397748596,
+            "request_arrival_moving_mean": 0.0035801966994571375,
+            "request_arrival_variance": 1.2375083160558842e-05,
+            "request_arrival_moving_variance": 1.3425956663996316e-05,
+            "low_fidelity_service_time": 0.0,
+            "low_fidelity_service_time_variance": 0.0,
+            "service_time": 0.0,
+            "service_time_variance": 0.0,
+            "server_threads": 100.0
+        },
+        "current_normalized_state": {
+            "basic_response_time": 1.2000640939337015,
+            "opt_response_time": 1.5972919995552566,
+            "basic_throughput": -0.42631988278632904,
+            "opt_throughput": 1.043609769061947,
+            "avg_response_time": 1.2719195412579936,
+            "utilization": 2.4271267372699104,
+            "current_dimmer": 0.9545887074815054,
+            "active_servers": -0.2765663074677486,
+            "max_servers": 0.0,
+            "is_booting": -0.5783356143659629,
+            "boot_remaining": -0.5398100475076667,
+            "request_arrival_mean": -0.2138025541053458,
+            "request_arrival_moving_mean": -0.24626537316463526,
+            "request_arrival_variance": -0.08658580503918221,
+            "request_arrival_moving_variance": -0.11721986609866476,
+            "low_fidelity_service_time": 0.0,
+            "low_fidelity_service_time_variance": 0.0,
+            "service_time": 0.0,
+            "service_time_variance": 0.0,
+            "server_threads": 0.0
+        },
+        "last_rewards": {
+            "Running Costs": -0.5,
+            "User Satisfaction": -2.4673564403762476,
+            "Revenue": 1.4004999999999999
+        },
+        "current_selected_action": "Add Server",
+        "is_greedy_action": true,
+        "absolute_reward_channel_dominance": {
+            "No Operation": {
+                "Running Costs": -12.072725296020508,
+                "User Satisfaction": -8.074878692626953,
+                "Revenue": 18.79729461669922
+            },
+            "Increase Dimmer": {
+                "Running Costs": -12.221521377563477,
+                "User Satisfaction": -10.795255661010742,
+                "Revenue": 20.446083068847656
+            },
+            "Decrease Dimmer": {
+                "Running Costs": -12.038924217224121,
+                "User Satisfaction": -5.4702959060668945,
+                "Revenue": 17.149545669555664
+            },
+            "Add Server": {
+                "Running Costs": -12.65119743347168,
+                "User Satisfaction": -7.611166000366211,
+                "Revenue": 20.963531494140625
+            },
+            "Remove Server": {
+                "Running Costs": -11.27047348022461,
+                "User Satisfaction": -9.845102310180664,
+                "Revenue": 17.526020050048828
+            }
+        },
+        "relative_reward_channel_dominance": {
+            "No Operation": {
+                "Running Costs": 0.5784721374511719,
+                "User Satisfaction": 2.720376968383789,
+                "Revenue": 1.6477489471435547
+            },
+            "Increase Dimmer": {
+                "Running Costs": 0.4296760559082031,
+                "User Satisfaction": 0.0,
+                "Revenue": 3.296537399291992
+            },
+            "Decrease Dimmer": {
+                "Running Costs": 0.6122732162475586,
+                "User Satisfaction": 5.324959754943848,
+                "Revenue": 0.0
+            },
+            "Add Server": {
+                "Running Costs": 0.0,
+                "User Satisfaction": 3.1840896606445312,
+                "Revenue": 3.813985824584961
+            },
+            "Remove Server": {
+                "Running Costs": 1.3807239532470703,
+                "User Satisfaction": 0.9501533508300781,
+                "Revenue": 0.37647438049316406
+            }
+        },
+        "current_state_value": {
+            "Running Costs": -11.27047348022461,
+            "User Satisfaction": -5.4702959060668945,
+            "Revenue": 20.963531494140625
+        },
+        "min_next_state_value": {
+            "Running Costs": -11.217326164245605,
+            "User Satisfaction": -8.14532470703125,
+            "Revenue": 14.117536544799805
+        },
+        "max_next_state_value": {
+            "Running Costs": -10.725571632385254,
+            "User Satisfaction": 0.00686955451965332,
+            "Revenue": 18.972158432006836
+        },
+        "contrastive_important_actions_explanations": [
+            [
+                "Running Costs",
+                "Remove Server",
+                "To achieve the goal <b><u>Running Costs</u></b>, it would currently be most important to choose <b><u>Remove Server</u></b>. However, taking into account all the contrastive target dimensions, I have chosen the action <b><u>Add Server</u></b>.\n\nMore specifically, compared to the action <b><u>Remove Server</u></b>, the action <b><u>Add Server</u></b> has a higher positive impact on the goal <b><u>Revenue</u></b>."
+            ]
+        ]
+    },
+    {
+        "timestep": 23401,
+        "current_state": {
+            "basic_response_time": 1.1398084640174855,
+            "opt_response_time": 2.55812605016133,
+            "basic_throughput": 116.98333333333333,
+            "opt_throughput": 150.05,
+            "avg_response_time": 1.936782201881237,
+            "utilization": 6.216669759871183,
+            "current_dimmer": 0.5499999999999997,
+            "active_servers": 8.0,
+            "max_servers": 20.0,
+            "is_booting": 1.0,
+            "boot_remaining": 2.0,
+            "request_arrival_mean": 0.0037838178722330827,
+            "request_arrival_moving_mean": 0.00353997717783594,
+            "request_arrival_variance": 1.4317277690230494e-05,
+            "request_arrival_moving_variance": 1.3089237776161654e-05,
+            "low_fidelity_service_time": 0.0,
+            "low_fidelity_service_time_variance": 0.0,
+            "service_time": 0.0,
+            "service_time_variance": 0.0,
+            "server_threads": 100.0
+        },
+        "current_normalized_state": {
+            "basic_response_time": -0.05368941367170947,
+            "opt_response_time": 0.08872970000054652,
+            "basic_throughput": -0.6581202414431234,
+            "opt_throughput": 0.6490297494254348,
+            "avg_response_time": -0.027349597796388726,
+            "utilization": 1.8050346096355672,
+            "current_dimmer": 0.9545887074815054,
+            "active_servers": -0.2765663074677486,
+            "max_servers": 0.0,
+            "is_booting": 1.7290998084155684,
+            "boot_remaining": 2.32755448828149,
+            "request_arrival_mean": -0.16386132870332576,
+            "request_arrival_moving_mean": -0.2554709239820673,
+            "request_arrival_variance": -0.08212235698237186,
+            "request_arrival_moving_variance": -0.11829767292812493,
+            "low_fidelity_service_time": 0.0,
+            "low_fidelity_service_time_variance": 0.0,
+            "service_time": 0.0,
+            "service_time_variance": 0.0,
+            "server_threads": 0.0
+        },
+        "last_rewards": {
+            "Running Costs": -0.5,
+            "User Satisfaction": -2.2217471433445204,
+            "Revenue": 1.0178333333333331
+        },
+        "current_selected_action": "Decrease Dimmer",
+        "is_greedy_action": true,
+        "absolute_reward_channel_dominance": {
+            "No Operation": {
+                "Running Costs": -12.56431770324707,
+                "User Satisfaction": -5.463104248046875,
+                "Revenue": 17.65703582763672
+            },
+            "Increase Dimmer": {
+                "Running Costs": -12.647177696228027,
+                "User Satisfaction": -8.15935230255127,
+                "Revenue": 18.079280853271484
+            },
+            "Decrease Dimmer": {
+                "Running Costs": -12.632684707641602,
+                "User Satisfaction": -3.1047003269195557,
+                "Revenue": 17.17264175415039
+            },
+            "Add Server": {
+                "Running Costs": -12.696937561035156,
+                "User Satisfaction": -8.091023445129395,
+                "Revenue": 17.840898513793945
+            },
+            "Remove Server": {
+                "Running Costs": -12.610544204711914,
+                "User Satisfaction": -6.220233917236328,
+                "Revenue": 17.20467758178711
+            }
+        },
+        "relative_reward_channel_dominance": {
+            "No Operation": {
+                "Running Costs": 0.13261985778808594,
+                "User Satisfaction": 2.6962480545043945,
+                "Revenue": 0.4843940734863281
+            },
+            "Increase Dimmer": {
+                "Running Costs": 0.049759864807128906,
+                "User Satisfaction": 0.0,
+                "Revenue": 0.9066390991210938
+            },
+            "Decrease Dimmer": {
+                "Running Costs": 0.06425285339355469,
+                "User Satisfaction": 5.054652214050293,
+                "Revenue": 0.0
+            },
+            "Add Server": {
+                "Running Costs": 0.0,
+                "User Satisfaction": 0.068328857421875,
+                "Revenue": 0.6682567596435547
+            },
+            "Remove Server": {
+                "Running Costs": 0.08639335632324219,
+                "User Satisfaction": 1.9391183853149414,
+                "Revenue": 0.03203582763671875
+            }
+        },
+        "current_state_value": {
+            "Running Costs": -12.56431770324707,
+            "User Satisfaction": -3.1047003269195557,
+            "Revenue": 18.079280853271484
+        },
+        "min_next_state_value": {
+            "Running Costs": -12.674439430236816,
+            "User Satisfaction": -5.145473480224609,
+            "Revenue": 16.3253173828125
+        },
+        "max_next_state_value": {
+            "Running Costs": -11.88113784790039,
+            "User Satisfaction": -0.7237140536308289,
+            "Revenue": 18.666675567626953
+        },
+        "contrastive_important_actions_explanations": []
+    },
+    {
+        "timestep": 23402,
+        "current_state": {
+            "basic_response_time": 0.2863140466343531,
+            "opt_response_time": 1.1155377991886801,
+            "basic_throughput": 107.65,
+            "opt_throughput": 111.78333333333333,
+            "avg_response_time": 0.7087357167226009,
+            "utilization": 4.6046741981373325,
+            "current_dimmer": 0.4999999999999998,
+            "active_servers": 8.0,
+            "max_servers": 20.0,
+            "is_booting": 1.0,
+            "boot_remaining": 1.0,
+            "request_arrival_mean": 0.004668170855053295,
+            "request_arrival_moving_mean": 0.0035159412856791395,
+            "request_arrival_variance": 2.179181913196901e-05,
+            "request_arrival_moving_variance": 1.2853275991443026e-05,
+            "low_fidelity_service_time": 0.0,
+            "low_fidelity_service_time_variance": 0.0,
+            "service_time": 0.0,
+            "service_time_variance": 0.0,
+            "server_threads": 100.0
+        },
+        "current_normalized_state": {
+            "basic_response_time": -0.3224459801713416,
+            "opt_response_time": -0.2462877403145652,
+            "basic_throughput": -0.7418674677965459,
+            "opt_throughput": 0.33014353855411055,
+            "avg_response_time": -0.3192362079484225,
+            "utilization": 1.1291506618304408,
+            "current_dimmer": 0.8044758451319657,
+            "active_servers": -0.2765663074677486,
+            "max_servers": 0.0,
+            "is_booting": 1.7290998084155684,
+            "boot_remaining": 0.8938722203869118,
+            "request_arrival_mean": 0.002178631042454082,
+            "request_arrival_moving_mean": -0.2609723227499514,
+            "request_arrival_variance": -0.064944763819592,
+            "request_arrival_moving_variance": -0.11905296534636976,
+            "low_fidelity_service_time": 0.0,
+            "low_fidelity_service_time_variance": 0.0,
+            "service_time": 0.0,
+            "service_time_variance": 0.0,
+            "server_threads": 0.0
+        },
+        "last_rewards": {
+            "Running Costs": -0.55,
+            "User Satisfaction": -2.121658217453156,
+            "Revenue": 0.8333333333333333
+        },
+        "current_selected_action": "Decrease Dimmer",
+        "is_greedy_action": true,
+        "absolute_reward_channel_dominance": {
+            "No Operation": {
+                "Running Costs": -12.365510940551758,
+                "User Satisfaction": -2.591867208480835,
+                "Revenue": 16.142635345458984
+            },
+            "Increase Dimmer": {
+                "Running Costs": -12.47165298461914,
+                "User Satisfaction": -4.571115493774414,
+                "Revenue": 16.55290985107422
+            },
+            "Decrease Dimmer": {
+                "Running Costs": -12.441564559936523,
+                "User Satisfaction": -0.31113022565841675,
+                "Revenue": 15.759187698364258
+            },
+            "Add Server": {
+                "Running Costs": -12.639579772949219,
+                "User Satisfaction": -3.9550416469573975,
+                "Revenue": 16.24114227294922
+            },
+            "Remove Server": {
+                "Running Costs": -12.321657180786133,
+                "User Satisfaction": -2.804462432861328,
+                "Revenue": 15.817626953125
+            }
+        },
+        "relative_reward_channel_dominance": {
+            "No Operation": {
+                "Running Costs": 0.27406883239746094,
+                "User Satisfaction": 1.979248285293579,
+                "Revenue": 0.38344764709472656
+            },
+            "Increase Dimmer": {
+                "Running Costs": 0.16792678833007812,
+                "User Satisfaction": 0.0,
+                "Revenue": 0.7937221527099609
+            },
+            "Decrease Dimmer": {
+                "Running Costs": 0.1980152130126953,
+                "User Satisfaction": 4.259985446929932,
+                "Revenue": 0.0
+            },
+            "Add Server": {
+                "Running Costs": 0.0,
+                "User Satisfaction": 0.6160738468170166,
+                "Revenue": 0.48195457458496094
+            },
+            "Remove Server": {
+                "Running Costs": 0.31792259216308594,
+                "User Satisfaction": 1.766653060913086,
+                "Revenue": 0.05843925476074219
+            }
+        },
+        "current_state_value": {
+            "Running Costs": -12.321657180786133,
+            "User Satisfaction": -0.31113022565841675,
+            "Revenue": 16.55290985107422
+        },
+        "min_next_state_value": {
+            "Running Costs": -12.567267417907715,
+            "User Satisfaction": -2.4064652919769287,
+            "Revenue": 16.173477172851562
+        },
+        "max_next_state_value": {
+            "Running Costs": -11.857107162475586,
+            "User Satisfaction": 3.3334314823150635,
+            "Revenue": 17.779775619506836
+        },
+        "contrastive_important_actions_explanations": []
+    },
+    {
+        "timestep": 23403,
+        "current_state": {
+            "basic_response_time": 0.03266590638811205,
+            "opt_response_time": 0.42474912269750403,
+            "basic_throughput": 115.03333333333333,
+            "opt_throughput": 93.33333333333333,
+            "avg_response_time": 0.20829108726577922,
+            "utilization": 4.1969072059954495,
+            "current_dimmer": 0.44999999999999973,
+            "active_servers": 9.0,
+            "max_servers": 20.0,
+            "is_booting": 0.0,
+            "boot_remaining": 0.0,
+            "request_arrival_mean": 0.004799232122860342,
+            "request_arrival_moving_mean": 0.0035012988011831002,
+            "request_arrival_variance": 2.3032628969094586e-05,
+            "request_arrival_moving_variance": 1.2708442580494942e-05,
+            "low_fidelity_service_time": 0.0,
+            "low_fidelity_service_time_variance": 0.0,
+            "service_time": 0.0,
+            "service_time_variance": 0.0,
+            "server_threads": 100.0
+        },
+        "current_normalized_state": {
+            "basic_response_time": -0.4023171566936312,
+            "opt_response_time": -0.40671207070870297,
+            "basic_throughput": -0.6756174298062492,
+            "opt_throughput": 0.17639482974115067,
+            "avg_response_time": -0.43818373007098527,
+            "utilization": 0.958180486120378,
+            "current_dimmer": 0.6543629827824257,
+            "active_servers": 0.04425394572547313,
+            "max_servers": 0.0,
+            "is_booting": -0.5783356143659629,
+            "boot_remaining": -0.5398100475076667,
+            "request_arrival_mean": 0.02678578231989495,
+            "request_arrival_moving_mean": -0.2643237334502395,
+            "request_arrival_variance": -0.062093200718276065,
+            "request_arrival_moving_variance": -0.11951656404871076,
+            "low_fidelity_service_time": 0.0,
+            "low_fidelity_service_time_variance": 0.0,
+            "service_time": 0.0,
+            "service_time_variance": 0.0,
+            "server_threads": 0.0
+        },
+        "last_rewards": {
+            "Running Costs": -0.55,
+            "User Satisfaction": -2.1260755981961506,
+            "Revenue": 0.8908333333333333
+        },
+        "current_selected_action": "Decrease Dimmer",
+        "is_greedy_action": true,
+        "absolute_reward_channel_dominance": {
+            "No Operation": {
+                "Running Costs": -12.285892486572266,
+                "User Satisfaction": 1.5631529092788696,
+                "Revenue": 14.944101333618164
+            },
+            "Increase Dimmer": {
+                "Running Costs": -12.461087226867676,
+                "User Satisfaction": -0.4346926212310791,
+                "Revenue": 15.822816848754883
+            },
+            "Decrease Dimmer": {
+                "Running Costs": -12.343999862670898,
+                "User Satisfaction": 4.143847465515137,
+                "Revenue": 14.19588851928711
+            },
+            "Add Server": {
+                "Running Costs": -13.10317611694336,
+                "User Satisfaction": 0.7848097085952759,
+                "Revenue": 15.903181076049805
+            },
+            "Remove Server": {
+                "Running Costs": -11.521164894104004,
+                "User Satisfaction": 1.6125097274780273,
+                "Revenue": 14.33796215057373
+            }
+        },
+        "relative_reward_channel_dominance": {
+            "No Operation": {
+                "Running Costs": 0.8172836303710938,
+                "User Satisfaction": 1.9978455305099487,
+                "Revenue": 0.7482128143310547
+            },
+            "Increase Dimmer": {
+                "Running Costs": 0.6420888900756836,
+                "User Satisfaction": 0.0,
+                "Revenue": 1.6269283294677734
+            },
+            "Decrease Dimmer": {
+                "Running Costs": 0.7591762542724609,
+                "User Satisfaction": 4.578539848327637,
+                "Revenue": 0.0
+            },
+            "Add Server": {
+                "Running Costs": 0.0,
+                "User Satisfaction": 1.219502329826355,
+                "Revenue": 1.7072925567626953
+            },
+            "Remove Server": {
+                "Running Costs": 1.5820112228393555,
+                "User Satisfaction": 2.0472023487091064,
+                "Revenue": 0.1420736312866211
+            }
+        },
+        "current_state_value": {
+            "Running Costs": -11.521164894104004,
+            "User Satisfaction": 4.143847465515137,
+            "Revenue": 15.903181076049805
+        },
+        "min_next_state_value": {
+            "Running Costs": -12.459080696105957,
+            "User Satisfaction": 0.6243125796318054,
+            "Revenue": 15.851547241210938
+        },
+        "max_next_state_value": {
+            "Running Costs": -11.828386306762695,
+            "User Satisfaction": 6.895803451538086,
+            "Revenue": 18.040184020996094
+        },
+        "contrastive_important_actions_explanations": [
+            [
+                "Running Costs",
+                "Remove Server",
+                "To achieve the goal <b><u>Running Costs</u></b>, it would currently be most important to choose <b><u>Remove Server</u></b>. However, taking into account all the contrastive target dimensions, I have chosen the action <b><u>Decrease Dimmer</u></b>.\n\nMore specifically, compared to the action <b><u>Remove Server</u></b>, the action <b><u>Decrease Dimmer</u></b> has a higher positive impact on the goal <b><u>User Satisfaction</u></b>."
+            ]
+        ]
+    },
+    {
+        "timestep": 23404,
+        "current_state": {
+            "basic_response_time": 0.042546321120568956,
+            "opt_response_time": 0.5208930800243806,
+            "basic_throughput": 153.25,
+            "opt_throughput": 99.08333333333333,
+            "avg_response_time": 0.2303779909807513,
+            "utilization": 4.3176370574956,
+            "current_dimmer": 0.3999999999999997,
+            "active_servers": 9.0,
+            "max_servers": 20.0,
+            "is_booting": 0.0,
+            "boot_remaining": 0.0,
+            "request_arrival_mean": 0.003963011889035667,
+            "request_arrival_moving_mean": 0.0034916355967986408,
+            "request_arrival_variance": 1.5705463232638046e-05,
+            "request_arrival_moving_variance": 1.2629984242391838e-05,
+            "low_fidelity_service_time": 0.0,
+            "low_fidelity_service_time_variance": 0.0,
+            "service_time": 0.0,
+            "service_time_variance": 0.0,
+            "server_threads": 100.0
+        },
+        "current_normalized_state": {
+            "basic_response_time": -0.39920591626252305,
+            "opt_response_time": -0.3843842148817209,
+            "basic_throughput": -0.33270244761268175,
+            "opt_throughput": 0.22431109400535226,
+            "avg_response_time": -0.432934033473967,
+            "utilization": 1.0088005812291265,
+            "current_dimmer": 0.5042501204328856,
+            "active_servers": 0.04425394572547313,
+            "max_servers": 0.0,
+            "is_booting": -0.5783356143659629,
+            "boot_remaining": -0.5398100475076667,
+            "request_arrival_mean": -0.13021710754436971,
+            "request_arrival_moving_mean": -0.26653547330776906,
+            "request_arrival_variance": -0.07893210288213057,
+            "request_arrival_moving_variance": -0.11976770212171708,
+            "low_fidelity_service_time": 0.0,
+            "low_fidelity_service_time_variance": 0.0,
+            "service_time": 0.0,
+            "service_time_variance": 0.0,
+            "server_threads": 0.0
+        },
+        "last_rewards": {
+            "Running Costs": -0.55,
+            "User Satisfaction": -2.114040490480712,
+            "Revenue": 0.8653333333333333
+        },
+        "current_selected_action": "Decrease Dimmer",
+        "is_greedy_action": true,
+        "absolute_reward_channel_dominance": {
+            "No Operation": {
+                "Running Costs": -12.16451644897461,
+                "User Satisfaction": 3.9873545169830322,
+                "Revenue": 15.125582695007324
+            },
+            "Increase Dimmer": {
+                "Running Costs": -12.332677841186523,
+                "User Satisfaction": 1.9539597034454346,
+                "Revenue": 15.74022102355957
+            },
+            "Decrease Dimmer": {
+                "Running Costs": -12.233949661254883,
+                "User Satisfaction": 6.42418098449707,
+                "Revenue": 14.548519134521484
+            },
+            "Add Server": {
+                "Running Costs": -12.911507606506348,
+                "User Satisfaction": 3.154135227203369,
+                "Revenue": 16.22186279296875
+            },
+            "Remove Server": {
+                "Running Costs": -11.552924156188965,
+                "User Satisfaction": 3.137352466583252,
+                "Revenue": 14.366405487060547
+            }
+        },
+        "relative_reward_channel_dominance": {
+            "No Operation": {
+                "Running Costs": 0.7469911575317383,
+                "User Satisfaction": 2.0333948135375977,
+                "Revenue": 0.7591772079467773
+            },
+            "Increase Dimmer": {
+                "Running Costs": 0.5788297653198242,
+                "User Satisfaction": 0.0,
+                "Revenue": 1.3738155364990234
+            },
+            "Decrease Dimmer": {
+                "Running Costs": 0.6775579452514648,
+                "User Satisfaction": 4.470221519470215,
+                "Revenue": 0.1821136474609375
+            },
+            "Add Server": {
+                "Running Costs": 0.0,
+                "User Satisfaction": 1.2001755237579346,
+                "Revenue": 1.8554573059082031
+            },
+            "Remove Server": {
+                "Running Costs": 1.3585834503173828,
+                "User Satisfaction": 1.1833927631378174,
+                "Revenue": 0.0
+            }
+        },
+        "current_state_value": {
+            "Running Costs": -11.552924156188965,
+            "User Satisfaction": 6.42418098449707,
+            "Revenue": 16.22186279296875
+        },
+        "min_next_state_value": {
+            "Running Costs": -12.547779083251953,
+            "User Satisfaction": 2.3591747283935547,
+            "Revenue": 14.974266052246094
+        },
+        "max_next_state_value": {
+            "Running Costs": -11.704066276550293,
+            "User Satisfaction": 9.01198959350586,
+            "Revenue": 17.877328872680664
+        },
+        "contrastive_important_actions_explanations": [
+            [
+                "Running Costs",
+                "Remove Server",
+                "To achieve the goal <b><u>Running Costs</u></b>, it would currently be most important to choose <b><u>Remove Server</u></b>. However, taking into account all the contrastive target dimensions, I have chosen the action <b><u>Decrease Dimmer</u></b>.\n\nMore specifically, compared to the action <b><u>Remove Server</u></b>, the action <b><u>Decrease Dimmer</u></b> has a higher positive impact on the goal <b><u>User Satisfaction</u></b>."
+            ]
+        ]
+    },
+    {
+        "timestep": 23405,
+        "current_state": {
+            "basic_response_time": 0.037954265337824394,
+            "opt_response_time": 0.4164781681651322,
+            "basic_throughput": 179.76666666666668,
+            "opt_throughput": 96.53333333333333,
+            "avg_response_time": 0.1702024524035601,
+            "utilization": 4.0699382921244505,
+            "current_dimmer": 0.34999999999999964,
+            "active_servers": 9.0,
+            "max_servers": 20.0,
+            "is_booting": 0.0,
+            "boot_remaining": 0.0,
+            "request_arrival_mean": 0.003619254433586681,
+            "request_arrival_moving_mean": 0.003464698110577767,
+            "request_arrival_variance": 1.3099002655036848e-05,
+            "request_arrival_moving_variance": 1.2420484446244685e-05,
+            "low_fidelity_service_time": 0.0,
+            "low_fidelity_service_time_variance": 0.0,
+            "service_time": 0.0,
+            "service_time_variance": 0.0,
+            "server_threads": 100.0
+        },
+        "current_normalized_state": {
+            "basic_response_time": -0.40065190714448945,
+            "opt_response_time": -0.4086328641260413,
+            "basic_throughput": -0.09477059559786882,
+            "opt_throughput": 0.20306127246209768,
+            "avg_response_time": -0.4472367770440529,
+            "utilization": 0.9049444519818245,
+            "current_dimmer": 0.3541372580833457,
+            "active_servers": 0.04425394572547313,
+            "max_servers": 0.0,
+            "is_booting": -0.5783356143659629,
+            "boot_remaining": -0.5398100475076667,
+            "request_arrival_mean": -0.19475861435654848,
+            "request_arrival_moving_mean": -0.27270099662342767,
+            "request_arrival_variance": -0.0849221318017433,
+            "request_arrival_moving_variance": -0.12043829209815105,
+            "low_fidelity_service_time": 0.0,
+            "low_fidelity_service_time_variance": 0.0,
+            "service_time": 0.0,
+            "service_time_variance": 0.0,
+            "server_threads": 0.0
+        },
+        "last_rewards": {
+            "Running Costs": -0.55,
+            "User Satisfaction": -2.1010853012695976,
+            "Revenue": 0.6351666666666667
+        },
+        "current_selected_action": "Decrease Dimmer",
+        "is_greedy_action": true,
+        "absolute_reward_channel_dominance": {
+            "No Operation": {
+                "Running Costs": -12.039164543151855,
+                "User Satisfaction": 6.5391621589660645,
+                "Revenue": 14.4806547164917
+            },
+            "Increase Dimmer": {
+                "Running Costs": -12.206676483154297,
+                "User Satisfaction": 4.346704006195068,
+                "Revenue": 15.114994049072266
+            },
+            "Decrease Dimmer": {
+                "Running Costs": -12.11786937713623,
+                "User Satisfaction": 8.777918815612793,
+                "Revenue": 13.930326461791992
+            },
+            "Add Server": {
+                "Running Costs": -12.774660110473633,
+                "User Satisfaction": 6.0225677490234375,
+                "Revenue": 15.446521759033203
+            },
+            "Remove Server": {
+                "Running Costs": -11.447256088256836,
+                "User Satisfaction": 5.392265796661377,
+                "Revenue": 13.82461166381836
+            }
+        },
+        "relative_reward_channel_dominance": {
+            "No Operation": {
+                "Running Costs": 0.7354955673217773,
+                "User Satisfaction": 2.192458152770996,
+                "Revenue": 0.6560430526733398
+            },
+            "Increase Dimmer": {
+                "Running Costs": 0.5679836273193359,
+                "User Satisfaction": 0.0,
+                "Revenue": 1.2903823852539062
+            },
+            "Decrease Dimmer": {
+                "Running Costs": 0.6567907333374023,
+                "User Satisfaction": 4.431214809417725,
+                "Revenue": 0.10571479797363281
+            },
+            "Add Server": {
+                "Running Costs": 0.0,
+                "User Satisfaction": 1.6758637428283691,
+                "Revenue": 1.6219100952148438
+            },
+            "Remove Server": {
+                "Running Costs": 1.3274040222167969,
+                "User Satisfaction": 1.0455617904663086,
+                "Revenue": 0.0
+            }
+        },
+        "current_state_value": {
+            "Running Costs": -11.447256088256836,
+            "User Satisfaction": 8.777918815612793,
+            "Revenue": 15.446521759033203
+        },
+        "min_next_state_value": {
+            "Running Costs": -12.33785343170166,
+            "User Satisfaction": 5.017848491668701,
+            "Revenue": 14.154894828796387
+        },
+        "max_next_state_value": {
+            "Running Costs": -11.585931777954102,
+            "User Satisfaction": 11.351366996765137,
+            "Revenue": 17.09221649169922
+        },
+        "contrastive_important_actions_explanations": [
+            [
+                "Running Costs",
+                "Remove Server",
+                "To achieve the goal <b><u>Running Costs</u></b>, it would currently be most important to choose <b><u>Remove Server</u></b>. However, taking into account all the contrastive target dimensions, I have chosen the action <b><u>Decrease Dimmer</u></b>.\n\nMore specifically, compared to the action <b><u>Remove Server</u></b>, the action <b><u>Decrease Dimmer</u></b> has a higher positive impact on the goal <b><u>User Satisfaction</u></b>."
+            ]
+        ]
+    },
+    {
+        "timestep": 23406,
+        "current_state": {
+            "basic_response_time": 0.029605451003189648,
+            "opt_response_time": 0.28101301288779634,
+            "basic_throughput": 170.25,
+            "opt_throughput": 73.51666666666667,
+            "avg_response_time": 0.1054265063479866,
+            "utilization": 3.110831776702483,
+            "current_dimmer": 0.2999999999999996,
+            "active_servers": 9.0,
+            "max_servers": 20.0,
+            "is_booting": 0.0,
+            "boot_remaining": 0.0,
+            "request_arrival_mean": 0.00410228360453986,
+            "request_arrival_moving_mean": 0.0034482629222204603,
+            "request_arrival_variance": 1.6828730772076548e-05,
+            "request_arrival_moving_variance": 1.2280238530446474e-05,
+            "low_fidelity_service_time": 0.0,
+            "low_fidelity_service_time_variance": 0.0,
+            "service_time": 0.0,
+            "service_time_variance": 0.0,
+            "server_threads": 100.0
+        },
+        "current_normalized_state": {
+            "basic_response_time": -0.403280862447793,
+            "opt_response_time": -0.44009242269537185,
+            "basic_throughput": -0.18016285675466223,
+            "opt_throughput": 0.011257327682786419,
+            "avg_response_time": -0.46263296240189783,
+            "utilization": 0.5028064353536829,
+            "current_dimmer": 0.20402439573380565,
+            "active_servers": 0.04425394572547313,
+            "max_servers": 0.0,
+            "is_booting": -0.5783356143659629,
+            "boot_remaining": -0.5398100475076667,
+            "request_arrival_mean": -0.10406841976327909,
+            "request_arrival_moving_mean": -0.2764627261398105,
+            "request_arrival_variance": -0.07635066923087187,
+            "request_arrival_moving_variance": -0.12088720664174335,
+            "low_fidelity_service_time": 0.0,
+            "low_fidelity_service_time_variance": 0.0,
+            "service_time": 0.0,
+            "service_time_variance": 0.0,
+            "server_threads": 0.0
+        },
+        "last_rewards": {
+            "Running Costs": -0.55,
+            "User Satisfaction": -0.9623624838362365,
+            "Revenue": 0.49
+        },
+        "current_selected_action": "Decrease Dimmer",
+        "is_greedy_action": true,
+        "absolute_reward_channel_dominance": {
+            "No Operation": {
+                "Running Costs": -11.865690231323242,
+                "User Satisfaction": 10.998773574829102,
+                "Revenue": 13.420881271362305
+            },
+            "Increase Dimmer": {
+                "Running Costs": -12.036728858947754,
+                "User Satisfaction": 9.04466438293457,
+                "Revenue": 13.783926010131836
+            },
+            "Decrease Dimmer": {
+                "Running Costs": -11.95604419708252,
+                "User Satisfaction": 13.213024139404297,
+                "Revenue": 13.12684440612793
+            },
+            "Add Server": {
+                "Running Costs": -12.601786613464355,
+                "User Satisfaction": 10.056662559509277,
+                "Revenue": 14.483779907226562
+            },
+            "Remove Server": {
+                "Running Costs": -11.311738967895508,
+                "User Satisfaction": 10.393467903137207,
+                "Revenue": 12.702855110168457
+            }
+        },
+        "relative_reward_channel_dominance": {
+            "No Operation": {
+                "Running Costs": 0.7360963821411133,
+                "User Satisfaction": 1.9541091918945312,
+                "Revenue": 0.7180261611938477
+            },
+            "Increase Dimmer": {
+                "Running Costs": 0.5650577545166016,
+                "User Satisfaction": 0.0,
+                "Revenue": 1.081070899963379
+            },
+            "Decrease Dimmer": {
+                "Running Costs": 0.6457424163818359,
+                "User Satisfaction": 4.168359756469727,
+                "Revenue": 0.42398929595947266
+            },
+            "Add Server": {
+                "Running Costs": 0.0,
+                "User Satisfaction": 1.011998176574707,
+                "Revenue": 1.7809247970581055
+            },
+            "Remove Server": {
+                "Running Costs": 1.2900476455688477,
+                "User Satisfaction": 1.3488035202026367,
+                "Revenue": 0.0
+            }
+        },
+        "current_state_value": {
+            "Running Costs": -11.311738967895508,
+            "User Satisfaction": 13.213024139404297,
+            "Revenue": 14.483779907226562
+        },
+        "min_next_state_value": {
+            "Running Costs": -11.984228134155273,
+            "User Satisfaction": 9.930546760559082,
+            "Revenue": 13.326133728027344
+        },
+        "max_next_state_value": {
+            "Running Costs": -11.494455337524414,
+            "User Satisfaction": 13.21180534362793,
+            "Revenue": 15.640783309936523
+        },
+        "contrastive_important_actions_explanations": [
+            [
+                "Running Costs",
+                "Remove Server",
+                "To achieve the goal <b><u>Running Costs</u></b>, it would currently be most important to choose <b><u>Remove Server</u></b>. However, taking into account all the contrastive target dimensions, I have chosen the action <b><u>Decrease Dimmer</u></b>.\n\nMore specifically, compared to the action <b><u>Remove Server</u></b>, the action <b><u>Decrease Dimmer</u></b> has a higher positive impact on the goal <b><u>User Satisfaction</u></b>."
+            ]
+        ]
+    },
+    {
+        "timestep": 23407,
+        "current_state": {
+            "basic_response_time": 0.026521618713827227,
+            "opt_response_time": 0.23011194773101587,
+            "basic_throughput": 177.8,
+            "opt_throughput": 59.0,
+            "avg_response_time": 0.07724724967672474,
+            "utilization": 2.543238149695633,
+            "current_dimmer": 0.24999999999999956,
+            "active_servers": 9.0,
+            "max_servers": 20.0,
+            "is_booting": 0.0,
+            "boot_remaining": 0.0,
+            "request_arrival_mean": 0.004222972972972972,
+            "request_arrival_moving_mean": 0.0034401614064314854,
+            "request_arrival_variance": 1.7833500730460185e-05,
+            "request_arrival_moving_variance": 1.2210500874850984e-05,
+            "low_fidelity_service_time": 0.0,
+            "low_fidelity_service_time_variance": 0.0,
+            "service_time": 0.0,
+            "service_time_variance": 0.0,
+            "server_threads": 100.0
+        },
+        "current_normalized_state": {
+            "basic_response_time": -0.40425192934743465,
+            "opt_response_time": -0.451913359505747,
+            "basic_throughput": -0.11241733257948287,
+            "opt_throughput": -0.10971387861900946,
+            "avg_response_time": -0.4693307118810767,
+            "utilization": 0.2648235088015817,
+            "current_dimmer": 0.053911533384265665,
+            "active_servers": 0.04425394572547313,
+            "max_servers": 0.0,
+            "is_booting": -0.5783356143659629,
+            "boot_remaining": -0.5398100475076667,
+            "request_arrival_mean": -0.08140862410965656,
+            "request_arrival_moving_mean": -0.2783170225681979,
+            "request_arrival_variance": -0.07404156041104266,
+            "request_arrival_moving_variance": -0.12111043059557236,
+            "low_fidelity_service_time": 0.0,
+            "low_fidelity_service_time_variance": 0.0,
+            "service_time": 0.0,
+            "service_time_variance": 0.0,
+            "server_threads": 0.0
+        },
+        "last_rewards": {
+            "Running Costs": -0.55,
+            "User Satisfaction": -0.4367736107568766,
+            "Revenue": 0.41466666666666674
+        },
+        "current_selected_action": "Decrease Dimmer",
+        "is_greedy_action": true,
+        "absolute_reward_channel_dominance": {
+            "No Operation": {
+                "Running Costs": -11.824849128723145,
+                "User Satisfaction": 14.172266006469727,
+                "Revenue": 12.391799926757812
+            },
+            "Increase Dimmer": {
+                "Running Costs": -11.990754127502441,
+                "User Satisfaction": 12.312234878540039,
+                "Revenue": 12.67568302154541
+            },
+            "Decrease Dimmer": {
+                "Running Costs": -11.923233985900879,
+                "User Satisfaction": 16.27540397644043,
+                "Revenue": 12.217016220092773
+            },
+            "Add Server": {
+                "Running Costs": -12.501398086547852,
+                "User Satisfaction": 13.258716583251953,
+                "Revenue": 13.50741958618164
+            },
+            "Remove Server": {
+                "Running Costs": -11.4072847366333,
+                "User Satisfaction": 13.949613571166992,
+                "Revenue": 11.681478500366211
+            }
+        },
+        "relative_reward_channel_dominance": {
+            "No Operation": {
+                "Running Costs": 0.676548957824707,
+                "User Satisfaction": 1.8600311279296875,
+                "Revenue": 0.7103214263916016
+            },
+            "Increase Dimmer": {
+                "Running Costs": 0.5106439590454102,
+                "User Satisfaction": 0.0,
+                "Revenue": 0.9942045211791992
+            },
+            "Decrease Dimmer": {
+                "Running Costs": 0.5781641006469727,
+                "User Satisfaction": 3.9631690979003906,
+                "Revenue": 0.5355377197265625
+            },
+            "Add Server": {
+                "Running Costs": 0.0,
+                "User Satisfaction": 0.9464817047119141,
+                "Revenue": 1.8259410858154297
+            },
+            "Remove Server": {
+                "Running Costs": 1.0941133499145508,
+                "User Satisfaction": 1.6373786926269531,
+                "Revenue": 0.0
+            }
+        },
+        "current_state_value": {
+            "Running Costs": -11.4072847366333,
+            "User Satisfaction": 16.27540397644043,
+            "Revenue": 13.50741958618164
+        },
+        "min_next_state_value": {
+            "Running Costs": -11.656947135925293,
+            "User Satisfaction": 11.824477195739746,
+            "Revenue": 12.668771743774414
+        },
+        "max_next_state_value": {
+            "Running Costs": -11.363500595092773,
+            "User Satisfaction": 13.66415023803711,
+            "Revenue": 14.477534294128418
+        },
+        "contrastive_important_actions_explanations": [
+            [
+                "Revenue",
+                "Add Server",
+                "To achieve the goal <b><u>Revenue</u></b>, it would currently be most important to choose <b><u>Add Server</u></b>. However, taking into account all the contrastive target dimensions, I have chosen the action <b><u>Decrease Dimmer</u></b>.\n\nMore specifically, compared to the action <b><u>Add Server</u></b>, the action <b><u>Decrease Dimmer</u></b> has a higher positive impact on the goal <b><u>User Satisfaction</u></b>."
+            ]
+        ]
+    },
+    {
+        "timestep": 23408,
+        "current_state": {
+            "basic_response_time": 0.029525679941493875,
+            "opt_response_time": 0.21946672774248,
+            "basic_throughput": 211.25,
+            "opt_throughput": 51.46666666666667,
+            "avg_response_time": 0.06673547221513754,
+            "utilization": 2.2742382419598335,
+            "current_dimmer": 0.1999999999999995,
+            "active_servers": 9.0,
+            "max_servers": 20.0,
+            "is_booting": 0.0,
+            "boot_remaining": 0.0,
+            "request_arrival_mean": 0.0038063820338768003,
+            "request_arrival_moving_mean": 0.003479026550128557,
+            "request_arrival_variance": 1.4488544187820087e-05,
+            "request_arrival_moving_variance": 1.2476162056384251e-05,
+            "low_fidelity_service_time": 0.0,
+            "low_fidelity_service_time_variance": 0.0,
+            "service_time": 0.0,
+            "service_time_variance": 0.0,
+            "server_threads": 100.0
+        },
+        "current_normalized_state": {
+            "basic_response_time": -0.40330598153025066,
+            "opt_response_time": -0.45438553710025187,
+            "basic_throughput": 0.18772674472644368,
+            "opt_throughput": -0.17249112919123874,
+            "avg_response_time": -0.47182918985159006,
+            "utilization": 0.1520361513698215,
+            "current_dimmer": -0.09620132896527434,
+            "active_servers": 0.04425394572547313,
+            "max_servers": 0.0,
+            "is_booting": -0.5783356143659629,
+            "boot_remaining": -0.5398100475076667,
+            "request_arrival_mean": -0.15962483879058487,
+            "request_arrival_moving_mean": -0.2694214653634193,
+            "request_arrival_variance": -0.0817287614366197,
+            "request_arrival_moving_variance": -0.1202600730833451,
+            "low_fidelity_service_time": 0.0,
+            "low_fidelity_service_time_variance": 0.0,
+            "service_time": 0.0,
+            "service_time_variance": 0.0,
+            "server_threads": 0.0
+        },
+        "last_rewards": {
+            "Running Costs": -0.55,
+            "User Satisfaction": 0.3434367044875951,
+            "Revenue": 0.2975
+        },
+        "current_selected_action": "Decrease Dimmer",
+        "is_greedy_action": true,
+        "absolute_reward_channel_dominance": {
+            "No Operation": {
+                "Running Costs": -11.778016090393066,
+                "User Satisfaction": 14.659566879272461,
+                "Revenue": 12.172390937805176
+            },
+            "Increase Dimmer": {
+                "Running Costs": -11.949922561645508,
+                "User Satisfaction": 12.864717483520508,
+                "Revenue": 12.69435977935791
+            },
+            "Decrease Dimmer": {
+                "Running Costs": -11.88446044921875,
+                "User Satisfaction": 16.36531639099121,
+                "Revenue": 11.848447799682617
+            },
+            "Add Server": {
+                "Running Costs": -12.440959930419922,
+                "User Satisfaction": 14.432912826538086,
+                "Revenue": 13.070840835571289
+            },
+            "Remove Server": {
+                "Running Costs": -11.489201545715332,
+                "User Satisfaction": 14.025304794311523,
+                "Revenue": 11.642899513244629
+            }
+        },
+        "relative_reward_channel_dominance": {
+            "No Operation": {
+                "Running Costs": 0.6629438400268555,
+                "User Satisfaction": 1.7948493957519531,
+                "Revenue": 0.5294914245605469
+            },
+            "Increase Dimmer": {
+                "Running Costs": 0.49103736877441406,
+                "User Satisfaction": 0.0,
+                "Revenue": 1.0514602661132812
+            },
+            "Decrease Dimmer": {
+                "Running Costs": 0.5564994812011719,
+                "User Satisfaction": 3.500598907470703,
+                "Revenue": 0.20554828643798828
+            },
+            "Add Server": {
+                "Running Costs": 0.0,
+                "User Satisfaction": 1.5681953430175781,
+                "Revenue": 1.4279413223266602
+            },
+            "Remove Server": {
+                "Running Costs": 0.9517583847045898,
+                "User Satisfaction": 1.1605873107910156,
+                "Revenue": 0.0
+            }
+        },
+        "current_state_value": {
+            "Running Costs": -11.489201545715332,
+            "User Satisfaction": 16.36531639099121,
+            "Revenue": 13.070840835571289
+        },
+        "min_next_state_value": {
+            "Running Costs": -11.543705940246582,
+            "User Satisfaction": 13.495355606079102,
+            "Revenue": 12.698192596435547
+        },
+        "max_next_state_value": {
+            "Running Costs": -11.022798538208008,
+            "User Satisfaction": 16.22991371154785,
+            "Revenue": 13.264723777770996
+        },
+        "contrastive_important_actions_explanations": []
+    },
+    {
+        "timestep": 23409,
+        "current_state": {
+            "basic_response_time": 0.027835789973338573,
+            "opt_response_time": 0.18272872808969554,
+            "basic_throughput": 224.55,
+            "opt_throughput": 39.75,
+            "avg_response_time": 0.0511312659102481,
+            "utilization": 1.8074857353620668,
+            "current_dimmer": 0.14999999999999947,
+            "active_servers": 9.0,
+            "max_servers": 20.0,
+            "is_booting": 0.0,
+            "boot_remaining": 0.0,
+            "request_arrival_mean": 0.0037835792659856224,
+            "request_arrival_moving_mean": 0.003526281017259799,
+            "request_arrival_variance": 1.4315472061996302e-05,
+            "request_arrival_moving_variance": 1.2789084407233033e-05,
+            "low_fidelity_service_time": 0.0,
+            "low_fidelity_service_time_variance": 0.0,
+            "service_time": 0.0,
+            "service_time_variance": 0.0,
+            "server_threads": 100.0
+        },
+        "current_normalized_state": {
+            "basic_response_time": -0.40383811040696443,
+            "opt_response_time": -0.462917334442754,
+            "basic_throughput": 0.3070665422800708,
+            "opt_throughput": -0.27012919811220604,
+            "avg_response_time": -0.47553805505945623,
+            "utilization": -0.04366570680894359,
+            "current_dimmer": -0.24631419131481433,
+            "active_servers": 0.04425394572547313,
+            "max_servers": 0.0,
+            "is_booting": -0.5783356143659629,
+            "boot_remaining": -0.5398100475076667,
+            "request_arrival_mean": -0.16390612775132246,
+            "request_arrival_moving_mean": -0.25860573755282157,
+            "request_arrival_variance": -0.08212650658103982,
+            "request_arrival_moving_variance": -0.11925843682526514,
+            "low_fidelity_service_time": 0.0,
+            "low_fidelity_service_time_variance": 0.0,
+            "service_time": 0.0,
+            "service_time_variance": 0.0,
+            "server_threads": 0.0
+        },
+        "last_rewards": {
+            "Running Costs": -0.55,
+            "User Satisfaction": 0.4682538831829116,
+            "Revenue": 0.22466666666666665
+        },
+        "current_selected_action": "Decrease Dimmer",
+        "is_greedy_action": true,
+        "absolute_reward_channel_dominance": {
+            "No Operation": {
+                "Running Costs": -11.73708724975586,
+                "User Satisfaction": 15.547553062438965,
+                "Revenue": 12.202004432678223
+            },
+            "Increase Dimmer": {
+                "Running Costs": -11.900191307067871,
+                "User Satisfaction": 13.676791191101074,
+                "Revenue": 12.619043350219727
+            },
+            "Decrease Dimmer": {
+                "Running Costs": -11.847262382507324,
+                "User Satisfaction": 17.242860794067383,
+                "Revenue": 11.967317581176758
+            },
+            "Add Server": {
+                "Running Costs": -12.353364944458008,
+                "User Satisfaction": 15.405354499816895,
+                "Revenue": 12.945503234863281
+            },
+            "Remove Server": {
+                "Running Costs": -11.483247756958008,
+                "User Satisfaction": 14.948966979980469,
+                "Revenue": 11.725412368774414
+            }
+        },
+        "relative_reward_channel_dominance": {
+            "No Operation": {
+                "Running Costs": 0.6162776947021484,
+                "User Satisfaction": 1.8707618713378906,
+                "Revenue": 0.4765920639038086
+            },
+            "Increase Dimmer": {
+                "Running Costs": 0.4531736373901367,
+                "User Satisfaction": 0.0,
+                "Revenue": 0.8936309814453125
+            },
+            "Decrease Dimmer": {
+                "Running Costs": 0.5061025619506836,
+                "User Satisfaction": 3.5660696029663086,
+                "Revenue": 0.24190521240234375
+            },
+            "Add Server": {
+                "Running Costs": 0.0,
+                "User Satisfaction": 1.7285633087158203,
+                "Revenue": 1.2200908660888672
+            },
+            "Remove Server": {
+                "Running Costs": 0.8701171875,
+                "User Satisfaction": 1.2721757888793945,
+                "Revenue": 0.0
+            }
+        },
+        "current_state_value": {
+            "Running Costs": -11.483247756958008,
+            "User Satisfaction": 17.242860794067383,
+            "Revenue": 12.945503234863281
+        },
+        "min_next_state_value": {
+            "Running Costs": -11.409808158874512,
+            "User Satisfaction": 14.400389671325684,
+            "Revenue": 12.446831703186035
+        },
+        "max_next_state_value": {
+            "Running Costs": -10.749424934387207,
+            "User Satisfaction": 17.053377151489258,
+            "Revenue": 12.87619686126709
+        },
+        "contrastive_important_actions_explanations": []
+    },
+    {
+        "timestep": 23410,
+        "current_state": {
+            "basic_response_time": 0.03487256274561033,
+            "opt_response_time": 0.17559057010094342,
+            "basic_throughput": 299.5,
+            "opt_throughput": 32.46666666666667,
+            "avg_response_time": 0.04863492233634177,
+            "utilization": 1.6376040773296165,
+            "current_dimmer": 0.09999999999999942,
+            "active_servers": 9.0,
+            "max_servers": 20.0,
+            "is_booting": 0.0,
+            "boot_remaining": 0.0,
+            "request_arrival_mean": 0.0030123506376142184,
+            "request_arrival_moving_mean": 0.0035343333255507176,
+            "request_arrival_variance": 9.074256363934789e-06,
+            "request_arrival_moving_variance": 1.2836300365885622e-05,
+            "low_fidelity_service_time": 0.0,
+            "low_fidelity_service_time_variance": 0.0,
+            "service_time": 0.0,
+            "service_time_variance": 0.0,
+            "server_threads": 100.0
+        },
+        "current_normalized_state": {
+            "basic_response_time": -0.4016223034245212,
+            "opt_response_time": -0.4645750544583886,
+            "basic_throughput": 0.9795866796217509,
+            "opt_throughput": -0.3308231328468614,
+            "avg_response_time": -0.47613139519142056,
+            "utilization": -0.11489436798909787,
+            "current_dimmer": -0.3964270536643543,
+            "active_servers": 0.04425394572547313,
+            "max_servers": 0.0,
+            "is_booting": -0.5783356143659629,
+            "boot_remaining": -0.5398100475076667,
+            "request_arrival_mean": -0.3087066462063095,
+            "request_arrival_moving_mean": -0.2567627038671446,
+            "request_arrival_variance": -0.0941715894321338,
+            "request_arrival_moving_variance": -0.11910730279467208,
+            "low_fidelity_service_time": 0.0,
+            "low_fidelity_service_time_variance": 0.0,
+            "service_time": 0.0,
+            "service_time_variance": 0.0,
+            "server_threads": 0.0
+        },
+        "last_rewards": {
+            "Running Costs": -0.45,
+            "User Satisfaction": 1.0714465841835628,
+            "Revenue": 0.2485
+        },
+        "current_selected_action": "No Operation",
+        "is_greedy_action": true,
+        "absolute_reward_channel_dominance": {
+            "No Operation": {
+                "Running Costs": -11.56673812866211,
+                "User Satisfaction": 9.583677291870117,
+                "Revenue": 14.051323890686035
+            },
+            "Increase Dimmer": {
+                "Running Costs": -11.720958709716797,
+                "User Satisfaction": 8.226362228393555,
+                "Revenue": 14.82545280456543
+            },
+            "Decrease Dimmer": {
+                "Running Costs": -11.680895805358887,
+                "User Satisfaction": 9.474032402038574,
+                "Revenue": 13.441325187683105
+            },
+            "Add Server": {
+                "Running Costs": -12.13627815246582,
+                "User Satisfaction": 8.161420822143555,
+                "Revenue": 14.585404396057129
+            },
+            "Remove Server": {
+                "Running Costs": -11.349834442138672,
+                "User Satisfaction": 6.675914764404297,
+                "Revenue": 13.649301528930664
+            }
+        },
+        "relative_reward_channel_dominance": {
+            "No Operation": {
+                "Running Costs": 0.5695400238037109,
+                "User Satisfaction": 2.9077625274658203,
+                "Revenue": 0.6099987030029297
+            },
+            "Increase Dimmer": {
+                "Running Costs": 0.41531944274902344,
+                "User Satisfaction": 1.5504474639892578,
+                "Revenue": 1.3841276168823242
+            },
+            "Decrease Dimmer": {
+                "Running Costs": 0.4553823471069336,
+                "User Satisfaction": 2.7981176376342773,
+                "Revenue": 0.0
+            },
+            "Add Server": {
+                "Running Costs": 0.0,
+                "User Satisfaction": 1.4855060577392578,
+                "Revenue": 1.1440792083740234
+            },
+            "Remove Server": {
+                "Running Costs": 0.7864437103271484,
+                "User Satisfaction": 0.0,
+                "Revenue": 0.2079763412475586
+            }
+        },
+        "current_state_value": {
+            "Running Costs": -11.349834442138672,
+            "User Satisfaction": 9.583677291870117,
+            "Revenue": 14.82545280456543
+        },
+        "min_next_state_value": {
+            "Running Costs": -11.51127815246582,
+            "User Satisfaction": 10.549050331115723,
+            "Revenue": 13.132256507873535
+        },
+        "max_next_state_value": {
+            "Running Costs": -10.723662376403809,
+            "User Satisfaction": 13.698697090148926,
+            "Revenue": 13.863199234008789
+        },
+        "contrastive_important_actions_explanations": []
+    },
+    {
+        "timestep": 23411,
+        "current_state": {
+            "basic_response_time": 0.027125831213929686,
+            "opt_response_time": 0.14546236721029715,
+            "basic_throughput": 232.08333333333334,
+            "opt_throughput": 24.85,
+            "avg_response_time": 0.03857106831632875,
+            "utilization": 1.2590170733388502,
+            "current_dimmer": 0.09999999999999942,
+            "active_servers": 9.0,
+            "max_servers": 20.0,
+            "is_booting": 0.0,
+            "boot_remaining": 0.0,
+            "request_arrival_mean": 0.0038920601971977166,
+            "request_arrival_moving_mean": 0.0035792357366082085,
+            "request_arrival_variance": 1.514813257861073e-05,
+            "request_arrival_moving_variance": 1.3145501609180245e-05,
+            "low_fidelity_service_time": 0.0,
+            "low_fidelity_service_time_variance": 0.0,
+            "service_time": 0.0,
+            "service_time_variance": 0.0,
+            "server_threads": 100.0
+        },
+        "current_normalized_state": {
+            "basic_response_time": -0.40406166907899427,
+            "opt_response_time": -0.47157183500676286,
+            "basic_throughput": 0.3746625178367618,
+            "opt_throughput": -0.39429482203161537,
+            "avg_response_time": -0.4785234090691257,
+            "utilization": -0.2736298415345527,
+            "current_dimmer": -0.3964270536643543,
+            "active_servers": 0.04425394572547313,
+            "max_servers": 0.0,
+            "is_booting": -0.5783356143659629,
+            "boot_remaining": -0.5398100475076667,
+            "request_arrival_mean": -0.14353850328286666,
+            "request_arrival_moving_mean": -0.24648532089108505,
+            "request_arrival_variance": -0.08021293051639417,
+            "request_arrival_moving_variance": -0.11811757746668822,
+            "low_fidelity_service_time": 0.0,
+            "low_fidelity_service_time_variance": 0.0,
+            "service_time": 0.0,
+            "service_time_variance": 0.0,
+            "server_threads": 0.0
+        },
+        "last_rewards": {
+            "Running Costs": -0.55,
+            "User Satisfaction": 1.5571277923525093,
+            "Revenue": 0.014166666666666647
+        },
+        "current_selected_action": "Decrease Dimmer",
+        "is_greedy_action": true,
+        "absolute_reward_channel_dominance": {
+            "No Operation": {
+                "Running Costs": -11.644895553588867,
+                "User Satisfaction": 16.259794235229492,
+                "Revenue": 12.280136108398438
+            },
+            "Increase Dimmer": {
+                "Running Costs": -11.797122955322266,
+                "User Satisfaction": 14.869691848754883,
+                "Revenue": 12.454614639282227
+            },
+            "Decrease Dimmer": {
+                "Running Costs": -11.752620697021484,
+                "User Satisfaction": 17.528003692626953,
+                "Revenue": 12.214400291442871
+            },
+            "Add Server": {
+                "Running Costs": -12.204936981201172,
+                "User Satisfaction": 16.013240814208984,
+                "Revenue": 12.9410982131958
+            },
+            "Remove Server": {
+                "Running Costs": -11.3834867477417,
+                "User Satisfaction": 15.730299949645996,
+                "Revenue": 11.7662992477417
+            }
+        },
+        "relative_reward_channel_dominance": {
+            "No Operation": {
+                "Running Costs": 0.5600414276123047,
+                "User Satisfaction": 1.3901023864746094,
+                "Revenue": 0.5138368606567383
+            },
+            "Increase Dimmer": {
+                "Running Costs": 0.40781402587890625,
+                "User Satisfaction": 0.0,
+                "Revenue": 0.6883153915405273
+            },
+            "Decrease Dimmer": {
+                "Running Costs": 0.4523162841796875,
+                "User Satisfaction": 2.6583118438720703,
+                "Revenue": 0.4481010437011719
+            },
+            "Add Server": {
+                "Running Costs": 0.0,
+                "User Satisfaction": 1.1435489654541016,
+                "Revenue": 1.1747989654541016
+            },
+            "Remove Server": {
+                "Running Costs": 0.8214502334594727,
+                "User Satisfaction": 0.8606081008911133,
+                "Revenue": 0.0
+            }
+        },
+        "current_state_value": {
+            "Running Costs": -11.3834867477417,
+            "User Satisfaction": 17.528003692626953,
+            "Revenue": 12.9410982131958
+        },
+        "min_next_state_value": {
+            "Running Costs": -11.483142852783203,
+            "User Satisfaction": 16.30790901184082,
+            "Revenue": 12.224651336669922
+        },
+        "max_next_state_value": {
+            "Running Costs": -10.82526969909668,
+            "User Satisfaction": 18.083602905273438,
+            "Revenue": 13.142720222473145
+        },
+        "contrastive_important_actions_explanations": []
+    },
+    {
+        "timestep": 23412,
+        "current_state": {
+            "basic_response_time": 0.023232233031423164,
+            "opt_response_time": 0.09674198847376636,
+            "basic_throughput": 220.08333333333334,
+            "opt_throughput": 11.416666666666666,
+            "avg_response_time": 0.02685744415294981,
+            "utilization": 0.7100106614277166,
+            "current_dimmer": 0.04999999999999938,
+            "active_servers": 9.0,
+            "max_servers": 20.0,
+            "is_booting": 0.0,
+            "boot_remaining": 0.0,
+            "request_arrival_mean": 0.004319654427645789,
+            "request_arrival_moving_mean": 0.003629362641979883,
+            "request_arrival_variance": 1.8659414374279866e-05,
+            "request_arrival_moving_variance": 1.3528309293803302e-05,
+            "low_fidelity_service_time": 0.0,
+            "low_fidelity_service_time_variance": 0.0,
+            "service_time": 0.0,
+            "service_time_variance": 0.0,
+            "server_threads": 100.0
+        },
+        "current_normalized_state": {
+            "basic_response_time": -0.4052877228850263,
+            "opt_response_time": -0.4828863431933436,
+            "basic_throughput": 0.26698751252521863,
+            "opt_throughput": -0.5062383263705906,
+            "avg_response_time": -0.48130754638881523,
+            "utilization": -0.5038194461844004,
+            "current_dimmer": -0.5465399160138943,
+            "active_servers": 0.04425394572547313,
+            "max_servers": 0.0,
+            "is_booting": -0.5783356143659629,
+            "boot_remaining": -0.5398100475076667,
+            "request_arrival_mean": -0.06325638721569064,
+            "request_arrival_moving_mean": -0.23501214179498275,
+            "request_arrival_variance": -0.07214348965021969,
+            "request_arrival_moving_variance": -0.11689224455023133,
+            "low_fidelity_service_time": 0.0,
+            "low_fidelity_service_time_variance": 0.0,
+            "service_time": 0.0,
+            "service_time_variance": 0.0,
+            "server_threads": 0.0
+        },
+        "last_rewards": {
+            "Running Costs": -0.5,
+            "User Satisfaction": 1.4120988969476327,
+            "Revenue": 0.010666666666666658
+        },
+        "current_selected_action": "Remove Server",
+        "is_greedy_action": true,
+        "absolute_reward_channel_dominance": {
+            "No Operation": {
+                "Running Costs": -11.603408813476562,
+                "User Satisfaction": 19.872333526611328,
+                "Revenue": 11.434977531433105
+            },
+            "Increase Dimmer": {
+                "Running Costs": -11.716042518615723,
+                "User Satisfaction": 18.95821189880371,
+                "Revenue": 11.711185455322266
+            },
+            "Decrease Dimmer": {
+                "Running Costs": -11.702524185180664,
+                "User Satisfaction": 20.476341247558594,
+                "Revenue": 11.337362289428711
+            },
+            "Add Server": {
+                "Running Costs": -12.037402153015137,
+                "User Satisfaction": 19.591758728027344,
+                "Revenue": 12.089542388916016
+            },
+            "Remove Server": {
+                "Running Costs": -11.235909461975098,
+                "User Satisfaction": 20.42762565612793,
+                "Revenue": 10.99448013305664
+            }
+        },
+        "relative_reward_channel_dominance": {
+            "No Operation": {
+                "Running Costs": 0.4339933395385742,
+                "User Satisfaction": 0.9141216278076172,
+                "Revenue": 0.44049739837646484
+            },
+            "Increase Dimmer": {
+                "Running Costs": 0.32135963439941406,
+                "User Satisfaction": 0.0,
+                "Revenue": 0.716705322265625
+            },
+            "Decrease Dimmer": {
+                "Running Costs": 0.33487796783447266,
+                "User Satisfaction": 1.5181293487548828,
+                "Revenue": 0.3428821563720703
+            },
+            "Add Server": {
+                "Running Costs": 0.0,
+                "User Satisfaction": 0.6335468292236328,
+                "Revenue": 1.095062255859375
+            },
+            "Remove Server": {
+                "Running Costs": 0.8014926910400391,
+                "User Satisfaction": 1.4694137573242188,
+                "Revenue": 0.0
+            }
+        },
+        "current_state_value": {
+            "Running Costs": -11.235909461975098,
+            "User Satisfaction": 20.476341247558594,
+            "Revenue": 12.089542388916016
+        },
+        "min_next_state_value": {
+            "Running Costs": -11.949689865112305,
+            "User Satisfaction": 18.769317626953125,
+            "Revenue": 11.730438232421875
+        },
+        "max_next_state_value": {
+            "Running Costs": -10.960197448730469,
+            "User Satisfaction": 20.53867530822754,
+            "Revenue": 13.13548469543457
+        },
+        "contrastive_important_actions_explanations": []
+    },
+    {
+        "timestep": 23413,
+        "current_state": {
+            "basic_response_time": 0.02590194677253228,
+            "opt_response_time": 0.1055322244172892,
+            "basic_throughput": 217.46666666666667,
+            "opt_throughput": 11.066666666666666,
+            "avg_response_time": 0.029758022061047346,
+            "utilization": 0.70057305750825,
+            "current_dimmer": 0.04999999999999938,
+            "active_servers": 8.0,
+            "max_servers": 20.0,
+            "is_booting": 0.0,
+            "boot_remaining": 0.0,
+            "request_arrival_mean": 0.004375729288214702,
+            "request_arrival_moving_mean": 0.003699295280847301,
+            "request_arrival_variance": 1.9147006803739943e-05,
+            "request_arrival_moving_variance": 1.4042510406412695e-05,
+            "low_fidelity_service_time": 0.0,
+            "low_fidelity_service_time_variance": 0.0,
+            "service_time": 0.0,
+            "service_time_variance": 0.0,
+            "server_threads": 100.0
+        },
+        "current_normalized_state": {
+            "basic_response_time": -0.4044470576340487,
+            "opt_response_time": -0.4808449551925892,
+            "basic_throughput": 0.2435083794225626,
+            "opt_throughput": -0.5091549685431943,
+            "avg_response_time": -0.48061812635194495,
+            "utilization": -0.5077764825102631,
+            "current_dimmer": -0.5465399160138943,
+            "active_servers": -0.2765663074677486,
+            "max_servers": 0.0,
+            "is_booting": -0.5783356143659629,
+            "boot_remaining": -0.5398100475076667,
+            "request_arrival_mean": -0.05272816175313745,
+            "request_arrival_moving_mean": -0.2190057738686212,
+            "request_arrival_variance": -0.07102293069047586,
+            "request_arrival_moving_variance": -0.11524633310626574,
+            "low_fidelity_service_time": 0.0,
+            "low_fidelity_service_time_variance": 0.0,
+            "service_time": 0.0,
+            "service_time_variance": 0.0,
+            "server_threads": 0.0
+        },
+        "last_rewards": {
+            "Running Costs": -0.5,
+            "User Satisfaction": 1.740728344732137,
+            "Revenue": -0.09833333333333334
+        },
+        "current_selected_action": "Decrease Dimmer",
+        "is_greedy_action": true,
+        "absolute_reward_channel_dominance": {
+            "No Operation": {
+                "Running Costs": -11.135493278503418,
+                "User Satisfaction": 19.835311889648438,
+                "Revenue": 10.899206161499023
+            },
+            "Increase Dimmer": {
+                "Running Costs": -11.237199783325195,
+                "User Satisfaction": 18.853628158569336,
+                "Revenue": 11.132113456726074
+            },
+            "Decrease Dimmer": {
+                "Running Costs": -11.241575241088867,
+                "User Satisfaction": 20.50299644470215,
+                "Revenue": 10.888045310974121
+            },
+            "Add Server": {
+                "Running Costs": -11.580096244812012,
+                "User Satisfaction": 19.835968017578125,
+                "Revenue": 11.286232948303223
+            },
+            "Remove Server": {
+                "Running Costs": -10.679948806762695,
+                "User Satisfaction": 19.957611083984375,
+                "Revenue": 10.61897087097168
+            }
+        },
+        "relative_reward_channel_dominance": {
+            "No Operation": {
+                "Running Costs": 0.44460296630859375,
+                "User Satisfaction": 0.9816837310791016,
+                "Revenue": 0.28023529052734375
+            },
+            "Increase Dimmer": {
+                "Running Costs": 0.3428964614868164,
+                "User Satisfaction": 0.0,
+                "Revenue": 0.5131425857543945
+            },
+            "Decrease Dimmer": {
+                "Running Costs": 0.33852100372314453,
+                "User Satisfaction": 1.6493682861328125,
+                "Revenue": 0.2690744400024414
+            },
+            "Add Server": {
+                "Running Costs": 0.0,
+                "User Satisfaction": 0.9823398590087891,
+                "Revenue": 0.667262077331543
+            },
+            "Remove Server": {
+                "Running Costs": 0.9001474380493164,
+                "User Satisfaction": 1.103982925415039,
+                "Revenue": 0.0
+            }
+        },
+        "current_state_value": {
+            "Running Costs": -10.679948806762695,
+            "User Satisfaction": 20.50299644470215,
+            "Revenue": 11.286232948303223
+        },
+        "min_next_state_value": {
+            "Running Costs": -11.561716079711914,
+            "User Satisfaction": 18.80423927307129,
+            "Revenue": 11.448929786682129
+        },
+        "max_next_state_value": {
+            "Running Costs": -10.676508903503418,
+            "User Satisfaction": 21.997297286987305,
+            "Revenue": 12.277297973632812
+        },
+        "contrastive_important_actions_explanations": [
+            [
+                "Running Costs",
+                "Remove Server",
+                "To achieve the goal <b><u>Running Costs</u></b>, it would currently be most important to choose <b><u>Remove Server</u></b>. However, taking into account all the contrastive target dimensions, I have chosen the action <b><u>Decrease Dimmer</u></b>.\n\nMore specifically, compared to the action <b><u>Remove Server</u></b>, the action <b><u>Decrease Dimmer</u></b> has a higher positive impact on the goals <b><u>User Satisfaction</u></b> (67.0%) and <b><u>Revenue</u></b> (33.0%)."
+            ]
+        ]
+    },
+    {
+        "timestep": 23414,
+        "current_state": {
+            "basic_response_time": 0.023144402503522614,
+            "opt_response_time": 0.07515889644929999,
+            "basic_throughput": 211.11666666666667,
+            "opt_throughput": 0.16666666666666666,
+            "avg_response_time": 0.02318543310535726,
+            "utilization": 0.2774217046468666,
+            "current_dimmer": 0.0,
+            "active_servers": 8.0,
+            "max_servers": 20.0,
+            "is_booting": 0.0,
+            "boot_remaining": 0.0,
+            "request_arrival_mean": 0.0047329809891930264,
+            "request_arrival_moving_mean": 0.0037865493798562785,
+            "request_arrival_variance": 2.24011090440626e-05,
+            "request_arrival_moving_variance": 1.4716188834212635e-05,
+            "low_fidelity_service_time": 0.0,
+            "low_fidelity_service_time_variance": 0.0,
+            "service_time": 0.0,
+            "service_time_variance": 0.0,
+            "server_threads": 100.0
+        },
+        "current_normalized_state": {
+            "basic_response_time": -0.40531537981005317,
+            "opt_response_time": -0.4878986620162974,
+            "basic_throughput": 0.18653035577853772,
+            "opt_throughput": -0.5999875390614198,
+            "avg_response_time": -0.48218032349462986,
+            "utilization": -0.685197074526913,
+            "current_dimmer": -0.6966527783634323,
+            "active_servers": -0.2765663074677486,
+            "max_servers": 0.0,
+            "is_booting": -0.5783356143659629,
+            "boot_remaining": -0.5398100475076667,
+            "request_arrival_mean": 0.014346930661190539,
+            "request_arrival_moving_mean": -0.19903482418847743,
+            "request_arrival_variance": -0.06354452618498799,
+            "request_arrival_moving_variance": -0.11308994914155242,
+            "low_fidelity_service_time": 0.0,
+            "low_fidelity_service_time_variance": 0.0,
+            "service_time": 0.0,
+            "service_time_variance": 0.0,
+            "server_threads": 0.0
+        },
+        "last_rewards": {
+            "Running Costs": -0.45000000000000007,
+            "User Satisfaction": 1.4165237653748974,
+            "Revenue": -0.1
+        },
+        "current_selected_action": "Remove Server",
+        "is_greedy_action": true,
+        "absolute_reward_channel_dominance": {
+            "No Operation": {
+                "Running Costs": -10.929336547851562,
+                "User Satisfaction": 21.025434494018555,
+                "Revenue": 10.392057418823242
+            },
+            "Increase Dimmer": {
+                "Running Costs": -11.029706954956055,
+                "User Satisfaction": 20.599029541015625,
+                "Revenue": 10.542828559875488
+            },
+            "Decrease Dimmer": {
+                "Running Costs": -11.037666320800781,
+                "User Satisfaction": 20.49051284790039,
+                "Revenue": 10.490837097167969
+            },
+            "Add Server": {
+                "Running Costs": -11.384866714477539,
+                "User Satisfaction": 21.209585189819336,
+                "Revenue": 10.587282180786133
+            },
+            "Remove Server": {
+                "Running Costs": -10.46360969543457,
+                "User Satisfaction": 21.019737243652344,
+                "Revenue": 10.221653938293457
+            }
+        },
+        "relative_reward_channel_dominance": {
+            "No Operation": {
+                "Running Costs": 0.45553016662597656,
+                "User Satisfaction": 0.5349216461181641,
+                "Revenue": 0.17040348052978516
+            },
+            "Increase Dimmer": {
+                "Running Costs": 0.3551597595214844,
+                "User Satisfaction": 0.10851669311523438,
+                "Revenue": 0.32117462158203125
+            },
+            "Decrease Dimmer": {
+                "Running Costs": 0.3472003936767578,
+                "User Satisfaction": 0.0,
+                "Revenue": 0.2691831588745117
+            },
+            "Add Server": {
+                "Running Costs": 0.0,
+                "User Satisfaction": 0.7190723419189453,
+                "Revenue": 0.3656282424926758
+            },
+            "Remove Server": {
+                "Running Costs": 0.9212570190429688,
+                "User Satisfaction": 0.5292243957519531,
+                "Revenue": 0.0
+            }
+        },
+        "current_state_value": {
+            "Running Costs": -10.46360969543457,
+            "User Satisfaction": 21.209585189819336,
+            "Revenue": 10.587282180786133
+        },
+        "min_next_state_value": {
+            "Running Costs": -11.767492294311523,
+            "User Satisfaction": 22.950458526611328,
+            "Revenue": 10.957474708557129
+        },
+        "max_next_state_value": {
+            "Running Costs": -10.471261024475098,
+            "User Satisfaction": 85.66185760498047,
+            "Revenue": 12.30378532409668
+        },
+        "contrastive_important_actions_explanations": []
+    }
+]
